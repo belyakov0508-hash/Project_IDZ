@@ -1,6 +1,5 @@
 site_name: Система управления пользователями и доступом
-site_description: Лабораторная работа — Анализатор прав доступа (Вариант 6)
-site_author: Ваш Имя / Никнейм
+site_description: Анализатор прав доступа
 
 theme:
   name: material
