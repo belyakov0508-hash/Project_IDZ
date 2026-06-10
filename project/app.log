@@ -1,0 +1,52 @@
+2026-06-07 15:06:05 [INFO] __main__: Приложение запущено. Логирование успешно настроено.
+2026-06-07 15:06:05 [CRITICAL] __main__: Не удалось загрузить данные: 'AccessAnalyzer' object has no attribute '_AccessAnalyzer__users_data'
+2026-06-07 15:07:31 [INFO] __main__: Приложение запущено. Логирование успешно настроено.
+2026-06-07 15:07:31 [CRITICAL] __main__: Не удалось загрузить данные: 'AccessAnalyzer' object has no attribute '_AccessAnalyzer__users_data'
+2026-06-07 15:11:19 [INFO] __main__: Приложение запущено. Логирование успешно настроено.
+2026-06-07 15:11:19 [CRITICAL] __main__: Не удалось загрузить данные: 'AccessAnalyzer' object has no attribute '_users_data'
+2026-06-07 15:13:16 [INFO] __main__: Приложение запущено. Логирование успешно настроено.
+2026-06-07 15:13:16 [INFO] analyzer: Инициализирован объект AccessAnalyzer.
+2026-06-07 15:13:16 [INFO] analyzer: Начало потокового чтения файла: C:\Users\1\PycharmProjects\Project_IDZ\project\data\raw_users.json
+2026-06-07 15:13:16 [INFO] analyzer: Успешно загружено 104 пользователей в память для анализа.
+2026-06-07 15:14:42 [INFO] __main__: Приложение запущено. Логирование успешно настроено.
+2026-06-07 15:14:42 [INFO] analyzer: Инициализирован объект AccessAnalyzer.
+2026-06-07 15:14:42 [INFO] analyzer: Начало потокового чтения файла: C:\Users\1\PycharmProjects\Project_IDZ\project\data\raw_users.json
+2026-06-07 15:14:42 [INFO] analyzer: Успешно загружено 104 пользователей в память для анализа.
+2026-06-07 15:14:42 [DEBUG] analyzer: Запрос топ-3 популярных ресурсов.
+2026-06-07 15:14:42 [INFO] analyzer: Формирование аналитического отчета в файл: C:\Users\1\PycharmProjects\Project_IDZ\project\data\report.json
+2026-06-07 15:14:42 [DEBUG] analyzer: Запрос топ-5 популярных ресурсов.
+2026-06-07 15:14:42 [DEBUG] analyzer: Поиск неиспользуемых ресурсов.
+2026-06-07 15:14:42 [INFO] analyzer: Аналитический отчет успешно записан.
+2026-06-07 15:14:42 [DEBUG] analyzer: Экспорт состояния объекта в dict.
+2026-06-07 15:14:42 [INFO] analyzer: Полное состояние успешно сохранено в файл: C:\Users\1\PycharmProjects\Project_IDZ\project\data\state.json
+2026-06-07 15:14:42 [INFO] analyzer: Инициализирован объект AccessAnalyzer.
+2026-06-07 15:14:42 [INFO] analyzer: Состояние объекта успешно восстановлено из dict.
+2026-06-07 15:14:42 [INFO] analyzer: Полное состояние успешно загружено из файла: C:\Users\1\PycharmProjects\Project_IDZ\project\data\state.json
+2026-06-07 16:02:46 [INFO] __main__: Приложение запущено. Логирование успешно настроено.
+2026-06-07 16:02:46 [INFO] src.analyzer: Инициализирован объект AccessAnalyzer.
+2026-06-07 16:02:46 [INFO] src.analyzer: Начало потокового чтения файла: C:\Users\1\PycharmProjects\Project_IDZ\project\data\raw_users.json
+2026-06-07 16:02:46 [INFO] src.analyzer: Успешно загружено 1000 пользователей в память для анализа.
+2026-06-07 16:02:46 [DEBUG] src.analyzer: Запрос топ-3 популярных ресурсов.
+2026-06-07 16:02:46 [INFO] src.analyzer: Формирование аналитического отчета в файл: C:\Users\1\PycharmProjects\Project_IDZ\project\data\report.json
+2026-06-07 16:02:46 [DEBUG] src.analyzer: Запрос топ-5 популярных ресурсов.
+2026-06-07 16:02:46 [DEBUG] src.analyzer: Поиск неиспользуемых ресурсов.
+2026-06-07 16:02:46 [INFO] src.analyzer: Аналитический отчет успешно записан.
+2026-06-07 16:02:46 [DEBUG] src.analyzer: Экспорт состояния объекта в dict.
+2026-06-07 16:02:46 [INFO] src.analyzer: Полное состояние успешно сохранено в файл: C:\Users\1\PycharmProjects\Project_IDZ\project\data\state.json
+2026-06-07 16:02:46 [INFO] src.analyzer: Инициализирован объект AccessAnalyzer.
+2026-06-07 16:02:46 [INFO] src.analyzer: Состояние объекта успешно восстановлено из dict.
+2026-06-07 16:02:46 [INFO] src.analyzer: Полное состояние успешно загружено из файла: C:\Users\1\PycharmProjects\Project_IDZ\project\data\state.json
+2026-06-09 15:21:47 [INFO] __main__: Приложение запущено. Логирование успешно настроено.
+2026-06-09 15:21:47 [INFO] src.analyzer: Инициализирован объект AccessAnalyzer.
+2026-06-09 15:21:47 [INFO] src.analyzer: Начало потокового чтения файла: C:\Users\1\PycharmProjects\Project_IDZ\project\data\raw_users.json
+2026-06-09 15:21:47 [INFO] src.analyzer: Успешно загружено 1000 пользователей в память для анализа.
+2026-06-09 15:21:47 [DEBUG] src.analyzer: Запрос топ-3 популярных ресурсов.
+2026-06-09 15:21:47 [INFO] src.analyzer: Формирование аналитического отчета в файл: C:\Users\1\PycharmProjects\Project_IDZ\project\data\report.json
+2026-06-09 15:21:47 [DEBUG] src.analyzer: Запрос топ-5 популярных ресурсов.
+2026-06-09 15:21:47 [DEBUG] src.analyzer: Поиск неиспользуемых ресурсов.
+2026-06-09 15:21:47 [INFO] src.analyzer: Аналитический отчет успешно записан.
+2026-06-09 15:21:47 [DEBUG] src.analyzer: Экспорт состояния объекта в dict.
+2026-06-09 15:21:47 [INFO] src.analyzer: Полное состояние успешно сохранено в файл: C:\Users\1\PycharmProjects\Project_IDZ\project\data\state.json
+2026-06-09 15:21:47 [INFO] src.analyzer: Инициализирован объект AccessAnalyzer.
+2026-06-09 15:21:47 [INFO] src.analyzer: Состояние объекта успешно восстановлено из dict.
+2026-06-09 15:21:47 [INFO] src.analyzer: Полное состояние успешно загружено из файла: C:\Users\1\PycharmProjects\Project_IDZ\project\data\state.json

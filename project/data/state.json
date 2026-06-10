@@ -1,0 +1,7454 @@
+{
+    "all_available_resources": [
+        "server1",
+        "server2",
+        "server3",
+        "server4",
+        "db1",
+        "db2",
+        "db3",
+        "api_v1",
+        "api_v2",
+        "unused_test_hub"
+    ],
+    "users_data": {
+        "amber_coleman": {
+            "role": "user",
+            "resources": []
+        },
+        "vera_turner": {
+            "role": "admin",
+            "resources": []
+        },
+        "kate_carter": {
+            "role": "admin",
+            "resources": []
+        },
+        "fiona_lee": {
+            "role": "guest",
+            "resources": []
+        },
+        "sarah_bailey": {
+            "role": "user",
+            "resources": []
+        },
+        "vera_turner1": {
+            "role": "admin",
+            "resources": []
+        },
+        "jack_patterson": {
+            "role": "guest",
+            "resources": []
+        },
+        "frank_lee": {
+            "role": "guest",
+            "resources": []
+        },
+        "peter_thompson": {
+            "role": "user",
+            "resources": []
+        },
+        "rick_brooks": {
+            "role": "user",
+            "resources": []
+        },
+        "xavier_murphy": {
+            "role": "admin",
+            "resources": []
+        },
+        "nina_phillips": {
+            "role": "user",
+            "resources": []
+        },
+        "vera_kelly": {
+            "role": "user",
+            "resources": []
+        },
+        "leo_martinez": {
+            "role": "user",
+            "resources": []
+        },
+        "kate_perez": {
+            "role": "user",
+            "resources": []
+        },
+        "betty_long": {
+            "role": "user",
+            "resources": []
+        },
+        "steve_robinson": {
+            "role": "user",
+            "resources": []
+        },
+        "helen_peterson": {
+            "role": "admin",
+            "resources": []
+        },
+        "yannick_torres": {
+            "role": "user",
+            "resources": []
+        },
+        "paula_murphy": {
+            "role": "user",
+            "resources": []
+        },
+        "mike_allen": {
+            "role": "admin",
+            "resources": []
+        },
+        "aaron_cooper": {
+            "role": "user",
+            "resources": []
+        },
+        "hank_ward": {
+            "role": "guest",
+            "resources": []
+        },
+        "helen_king": {
+            "role": "admin",
+            "resources": []
+        },
+        "victor_roberts": {
+            "role": "admin",
+            "resources": []
+        },
+        "karen_scott": {
+            "role": "user",
+            "resources": []
+        },
+        "steve_walker": {
+            "role": "admin",
+            "resources": []
+        },
+        "alice_ramirez": {
+            "role": "guest",
+            "resources": []
+        },
+        "olivia_carter": {
+            "role": "guest",
+            "resources": []
+        },
+        "oliver_davis": {
+            "role": "user",
+            "resources": []
+        },
+        "peter_long": {
+            "role": "user",
+            "resources": []
+        },
+        "jack_perry": {
+            "role": "admin",
+            "resources": []
+        },
+        "ivan_lee": {
+            "role": "guest",
+            "resources": []
+        },
+        "nina_torres": {
+            "role": "user",
+            "resources": []
+        },
+        "rick_roberts": {
+            "role": "admin",
+            "resources": []
+        },
+        "vera_carter": {
+            "role": "user",
+            "resources": []
+        },
+        "kevin_smith": {
+            "role": "admin",
+            "resources": []
+        },
+        "derek_powell": {
+            "role": "user",
+            "resources": []
+        },
+        "tina_martinez": {
+            "role": "user",
+            "resources": []
+        },
+        "mia_nelson": {
+            "role": "guest",
+            "resources": []
+        },
+        "oscar_james": {
+            "role": "guest",
+            "resources": []
+        },
+        "quentin_green": {
+            "role": "user",
+            "resources": []
+        },
+        "travis_smith": {
+            "role": "user",
+            "resources": []
+        },
+        "uma_peterson": {
+            "role": "user",
+            "resources": []
+        },
+        "yasmin_lee": {
+            "role": "guest",
+            "resources": []
+        },
+        "wade_walker": {
+            "role": "user",
+            "resources": []
+        },
+        "nora_gray": {
+            "role": "guest",
+            "resources": []
+        },
+        "xavier_barnes": {
+            "role": "guest",
+            "resources": []
+        },
+        "sophie_cook": {
+            "role": "guest",
+            "resources": []
+        },
+        "helen_adams": {
+            "role": "user",
+            "resources": []
+        },
+        "ulrich_perry": {
+            "role": "guest",
+            "resources": []
+        },
+        "mary_davis": {
+            "role": "user",
+            "resources": []
+        },
+        "paula_price": {
+            "role": "guest",
+            "resources": []
+        },
+        "george_walker": {
+            "role": "guest",
+            "resources": []
+        },
+        "elena_torres": {
+            "role": "user",
+            "resources": []
+        },
+        "liam_sanchez": {
+            "role": "user",
+            "resources": []
+        },
+        "betty_evans": {
+            "role": "user",
+            "resources": []
+        },
+        "nick_rogers": {
+            "role": "admin",
+            "resources": []
+        },
+        "kate_garcia": {
+            "role": "user",
+            "resources": []
+        },
+        "travis_ramirez": {
+            "role": "user",
+            "resources": []
+        },
+        "kevin_cooper": {
+            "role": "admin",
+            "resources": []
+        },
+        "wendy_parker": {
+            "role": "admin",
+            "resources": []
+        },
+        "george_nelson": {
+            "role": "user",
+            "resources": []
+        },
+        "grace_martinez": {
+            "role": "user",
+            "resources": []
+        },
+        "grace_powell": {
+            "role": "user",
+            "resources": []
+        },
+        "irene_carter": {
+            "role": "user",
+            "resources": []
+        },
+        "steve_davis": {
+            "role": "user",
+            "resources": []
+        },
+        "quinn_allen": {
+            "role": "admin",
+            "resources": []
+        },
+        "irene_murphy": {
+            "role": "user",
+            "resources": []
+        },
+        "hank_kelly": {
+            "role": "guest",
+            "resources": []
+        },
+        "olivia_rogers": {
+            "role": "user",
+            "resources": []
+        },
+        "grace_clark": {
+            "role": "guest",
+            "resources": []
+        },
+        "julia_torres": {
+            "role": "user",
+            "resources": []
+        },
+        "betty_jones": {
+            "role": "user",
+            "resources": []
+        },
+        "gina_white": {
+            "role": "guest",
+            "resources": []
+        },
+        "gina_bennett": {
+            "role": "guest",
+            "resources": []
+        },
+        "ray_scott": {
+            "role": "user",
+            "resources": []
+        },
+        "kate_walker": {
+            "role": "user",
+            "resources": []
+        },
+        "lisa_barnes": {
+            "role": "user",
+            "resources": []
+        },
+        "travis_price": {
+            "role": "guest",
+            "resources": []
+        },
+        "oliver_roberts": {
+            "role": "guest",
+            "resources": []
+        },
+        "ulrich_powell": {
+            "role": "user",
+            "resources": []
+        },
+        "jack_henderson": {
+            "role": "user",
+            "resources": []
+        },
+        "victor_martin": {
+            "role": "user",
+            "resources": []
+        },
+        "hugo_sanders": {
+            "role": "user",
+            "resources": []
+        },
+        "jack_nelson": {
+            "role": "user",
+            "resources": []
+        },
+        "travis_gray": {
+            "role": "user",
+            "resources": []
+        },
+        "olivia_scott": {
+            "role": "user",
+            "resources": []
+        },
+        "chloe_ramirez": {
+            "role": "user",
+            "resources": []
+        },
+        "xena_white": {
+            "role": "guest",
+            "resources": []
+        },
+        "elliot_baker": {
+            "role": "user",
+            "resources": []
+        },
+        "ivan_white": {
+            "role": "user",
+            "resources": []
+        },
+        "zach_lee": {
+            "role": "guest",
+            "resources": []
+        },
+        "lisa_evans": {
+            "role": "user",
+            "resources": []
+        },
+        "jack_ross": {
+            "role": "user",
+            "resources": []
+        },
+        "rick_hughes": {
+            "role": "user",
+            "resources": []
+        },
+        "aaron_henderson": {
+            "role": "user",
+            "resources": []
+        },
+        "paula_taylor": {
+            "role": "user",
+            "resources": []
+        },
+        "aaron_collins": {
+            "role": "admin",
+            "resources": []
+        },
+        "hank_reed": {
+            "role": "admin",
+            "resources": []
+        },
+        "mary_turner": {
+            "role": "guest",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "irene_perez": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "server6",
+                "api4"
+            ]
+        },
+        "tina_cook": {
+            "role": "guest",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "yannick_campbell": {
+            "role": "admin",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "tony_watson": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "server6",
+                "api4"
+            ]
+        },
+        "tony_cooper": {
+            "role": "guest",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "paula_jones": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "victor_morris": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "alice_edwards": {
+            "role": "guest",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "charlie_james": {
+            "role": "guest",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "brian_thompson": {
+            "role": "guest",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "brian_davis": {
+            "role": "guest",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "diana_lee": {
+            "role": "admin",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "quentin_carter": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "leo_howard": {
+            "role": "guest",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "zach_morgan": {
+            "role": "admin",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "victor_cox": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "travis_cooper": {
+            "role": "guest",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "aaron_ross": {
+            "role": "admin",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "irene_morgan": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "rachel_edwards": {
+            "role": "guest",
+            "resources": [
+                "db3",
+                "server6",
+                "api4"
+            ]
+        },
+        "gina_ward": {
+            "role": "guest",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "vera_coleman": {
+            "role": "guest",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "paula_parker": {
+            "role": "guest",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "peter_taylor": {
+            "role": "guest",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "mia_kelly": {
+            "role": "user",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "sophie_allen": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "server6",
+                "api4"
+            ]
+        },
+        "uma_martinez": {
+            "role": "user",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "karen_hall": {
+            "role": "guest",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "gina_campbell": {
+            "role": "guest",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "grace_evans": {
+            "role": "guest",
+            "resources": [
+                "db3",
+                "server6",
+                "api4"
+            ]
+        },
+        "leo_watson": {
+            "role": "user",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "ray_martin": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "sarah_stewart": {
+            "role": "guest",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "chloe_bennett": {
+            "role": "admin",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "oliver_sanders": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "yasmin_allen": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "server6",
+                "api4"
+            ]
+        },
+        "hugo_cooper": {
+            "role": "guest",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "liam_parker": {
+            "role": "guest",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "travis_long": {
+            "role": "guest",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "kevin_white": {
+            "role": "user",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "mia_martinez": {
+            "role": "admin",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "iris_adams": {
+            "role": "guest",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "yannick_bell": {
+            "role": "guest",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "elena_murphy": {
+            "role": "admin",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "xavier_brown": {
+            "role": "guest",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "kevin_parker": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "kevin_wilson": {
+            "role": "guest",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "irene_henderson": {
+            "role": "user",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "wendy_jones": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "brian_green": {
+            "role": "guest",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "ivan_adams": {
+            "role": "user",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "fiona_sanders": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "leo_king": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "server6",
+                "api4"
+            ]
+        },
+        "irene_walker": {
+            "role": "guest",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "irene_morgan1": {
+            "role": "user",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "quentin_stewart": {
+            "role": "guest",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "elliot_taylor": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "hugo_wood": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "xavier_king": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "paula_martin": {
+            "role": "guest",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "george_lee": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "uma_turner": {
+            "role": "guest",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "penny_cox": {
+            "role": "admin",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "paula_ramirez": {
+            "role": "guest",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "grace_hughes": {
+            "role": "admin",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "xavier_henderson": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "xena_ramirez": {
+            "role": "guest",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "irene_clark": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "grace_howard": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "server6",
+                "api4"
+            ]
+        },
+        "olivia_nelson": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "derek_baker": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "hugo_james": {
+            "role": "user",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "rick_rivera": {
+            "role": "admin",
+            "resources": [
+                "db3",
+                "server6",
+                "api4"
+            ]
+        },
+        "nina_bennett": {
+            "role": "user",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "travis_martinez": {
+            "role": "admin",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "julia_powell": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "frank_davis": {
+            "role": "user",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "paula_coleman": {
+            "role": "guest",
+            "resources": [
+                "db3",
+                "server6",
+                "api4"
+            ]
+        },
+        "zoe_stewart": {
+            "role": "user",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "ivan_smith": {
+            "role": "admin",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "sarah_taylor": {
+            "role": "admin",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "rachel_rogers": {
+            "role": "user",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "steve_davis1": {
+            "role": "admin",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "chloe_bailey": {
+            "role": "guest",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "travis_nelson": {
+            "role": "guest",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "alice_white": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "travis_murphy": {
+            "role": "guest",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "steve_sanders": {
+            "role": "user",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "peter_murphy": {
+            "role": "guest",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "mia_richardson": {
+            "role": "guest",
+            "resources": [
+                "db3",
+                "server6",
+                "api4"
+            ]
+        },
+        "leo_henderson": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "leo_rogers": {
+            "role": "admin",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "iris_ward": {
+            "role": "user",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "victor_richardson": {
+            "role": "admin",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "nick_perez": {
+            "role": "guest",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "quentin_adams": {
+            "role": "user",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "karen_powell": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "vera_ross": {
+            "role": "admin",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "calvin_long": {
+            "role": "guest",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "fiona_collins": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "liam_ramirez": {
+            "role": "user",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "chloe_thompson": {
+            "role": "user",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "yasmin_davis": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "paula_carter": {
+            "role": "admin",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "ivan_howard": {
+            "role": "user",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "victor_hall": {
+            "role": "guest",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "felix_brown": {
+            "role": "admin",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "frank_campbell": {
+            "role": "admin",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "sarah_collins": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "zach_brown": {
+            "role": "guest",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "victor_brown": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "aaron_peterson": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "vera_coleman1": {
+            "role": "guest",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "nora_murphy": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "quinn_wilson": {
+            "role": "guest",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "james_murphy": {
+            "role": "admin",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "sarah_henderson": {
+            "role": "admin",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "ray_sanders": {
+            "role": "guest",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "nick_bell": {
+            "role": "admin",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "sarah_roberts": {
+            "role": "user",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "steve_wood": {
+            "role": "guest",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "elena_henderson": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "gina_young": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "steve_reed": {
+            "role": "guest",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "zach_ward": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "olivia_bell": {
+            "role": "user",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "steve_mitchell": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "daisy_perez": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "wade_green": {
+            "role": "admin",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "leo_cook": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "lisa_campbell": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "wendy_parker1": {
+            "role": "user",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "oliver_bell": {
+            "role": "admin",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "irene_martin": {
+            "role": "admin",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "lisa_cox": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "server6",
+                "api4"
+            ]
+        },
+        "gina_howard": {
+            "role": "guest",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "tony_lee": {
+            "role": "guest",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "victor_peterson": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api1",
+                "server3"
+            ]
+        },
+        "oscar_collins": {
+            "role": "guest",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "julia_campbell": {
+            "role": "guest",
+            "resources": [
+                "db3",
+                "server6",
+                "api4"
+            ]
+        },
+        "calvin_robinson": {
+            "role": "admin",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "amber_rivera": {
+            "role": "admin",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "sophie_peterson": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "rachel_coleman": {
+            "role": "guest",
+            "resources": [
+                "server1",
+                "db2",
+                "api3",
+                "server4"
+            ]
+        },
+        "oliver_barnes": {
+            "role": "guest",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "eve_carter": {
+            "role": "guest",
+            "resources": [
+                "api2",
+                "server5"
+            ]
+        },
+        "kevin_kelly": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "quinn_murphy": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db1"
+            ]
+        },
+        "oscar_morris": {
+            "role": "admin",
+            "resources": [
+                "server2",
+                "api3"
+            ]
+        },
+        "derek_price": {
+            "role": "guest",
+            "resources": [
+                "api10"
+            ]
+        },
+        "liam_edwards": {
+            "role": "user",
+            "resources": [
+                "server18",
+                "db5"
+            ]
+        },
+        "oscar_cox": {
+            "role": "user",
+            "resources": [
+                "server3",
+                "db15",
+                "api4",
+                "server19"
+            ]
+        },
+        "elliot_nelson": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "api10"
+            ]
+        },
+        "hank_howard": {
+            "role": "admin",
+            "resources": [
+                "db14",
+                "server14",
+                "server3",
+                "api9",
+                "server10"
+            ]
+        },
+        "iris_jenkins": {
+            "role": "user",
+            "resources": [
+                "server10",
+                "server13",
+                "server4"
+            ]
+        },
+        "travis_robinson": {
+            "role": "guest",
+            "resources": []
+        },
+        "lisa_jenkins": {
+            "role": "admin",
+            "resources": [
+                "api1",
+                "server13",
+                "db12",
+                "db11",
+                "server8"
+            ]
+        },
+        "olivia_cox": {
+            "role": "guest",
+            "resources": [
+                "server17"
+            ]
+        },
+        "sophie_phillips": {
+            "role": "user",
+            "resources": [
+                "api5",
+                "server2"
+            ]
+        },
+        "yannick_watson": {
+            "role": "user",
+            "resources": [
+                "db13",
+                "db5",
+                "api9",
+                "server14",
+                "db1"
+            ]
+        },
+        "grace_sanders": {
+            "role": "user",
+            "resources": [
+                "server14",
+                "api5",
+                "db14"
+            ]
+        },
+        "travis_jones": {
+            "role": "admin",
+            "resources": [
+                "server8",
+                "api5",
+                "api6",
+                "server11",
+                "server5",
+                "api8",
+                "server18"
+            ]
+        },
+        "rick_ramirez": {
+            "role": "user",
+            "resources": [
+                "server13",
+                "server1",
+                "server10",
+                "server11"
+            ]
+        },
+        "wade_gray": {
+            "role": "user",
+            "resources": [
+                "api4",
+                "db2",
+                "db11",
+                "db9"
+            ]
+        },
+        "bob_martinez": {
+            "role": "admin",
+            "resources": [
+                "server16",
+                "db3",
+                "db10",
+                "server11",
+                "server3",
+                "api1",
+                "server9"
+            ]
+        },
+        "quentin_baker": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api7",
+                "api3",
+                "db3",
+                "db5"
+            ]
+        },
+        "irene_robinson": {
+            "role": "user",
+            "resources": [
+                "server9",
+                "db12"
+            ]
+        },
+        "mary_phillips": {
+            "role": "user",
+            "resources": [
+                "api5",
+                "server6",
+                "db15",
+                "server7"
+            ]
+        },
+        "chloe_torres": {
+            "role": "guest",
+            "resources": [
+                "server6",
+                "server13"
+            ]
+        },
+        "liam_clark": {
+            "role": "guest",
+            "resources": []
+        },
+        "julia_bailey": {
+            "role": "guest",
+            "resources": [
+                "db1",
+                "api3",
+                "db3"
+            ]
+        },
+        "george_torres": {
+            "role": "user",
+            "resources": [
+                "server4"
+            ]
+        },
+        "betty_jenkins": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "api2",
+                "server10",
+                "server19",
+                "db9"
+            ]
+        },
+        "amber_long": {
+            "role": "admin",
+            "resources": [
+                "db7",
+                "db12",
+                "db3",
+                "server14",
+                "server15",
+                "server12",
+                "server18",
+                "db5"
+            ]
+        },
+        "alice_morgan": {
+            "role": "user",
+            "resources": [
+                "server6",
+                "server9"
+            ]
+        },
+        "xena_richardson": {
+            "role": "user",
+            "resources": [
+                "server16",
+                "server11",
+                "db2"
+            ]
+        },
+        "vera_kelly1": {
+            "role": "guest",
+            "resources": [
+                "api8",
+                "api3",
+                "server19"
+            ]
+        },
+        "karen_bell": {
+            "role": "user",
+            "resources": [
+                "db10",
+                "db1",
+                "server20",
+                "server5",
+                "db6"
+            ]
+        },
+        "karen_thompson": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "api8",
+                "server12"
+            ]
+        },
+        "amber_patterson": {
+            "role": "user",
+            "resources": [
+                "server5",
+                "server11",
+                "api10"
+            ]
+        },
+        "daisy_coleman": {
+            "role": "guest",
+            "resources": [
+                "server5",
+                "server4",
+                "api8"
+            ]
+        },
+        "irene_campbell": {
+            "role": "guest",
+            "resources": [
+                "server16"
+            ]
+        },
+        "paula_phillips": {
+            "role": "guest",
+            "resources": [
+                "db5"
+            ]
+        },
+        "mary_perez": {
+            "role": "user",
+            "resources": [
+                "api5"
+            ]
+        },
+        "olivia_sanchez": {
+            "role": "user",
+            "resources": [
+                "db7",
+                "server8"
+            ]
+        },
+        "irene_mitchell": {
+            "role": "admin",
+            "resources": [
+                "server4",
+                "server2",
+                "db8"
+            ]
+        },
+        "hugo_smith": {
+            "role": "user",
+            "resources": [
+                "server5",
+                "server14",
+                "server2",
+                "server8",
+                "server19"
+            ]
+        },
+        "tony_young": {
+            "role": "user",
+            "resources": [
+                "server5",
+                "db4",
+                "db3",
+                "db7",
+                "server17"
+            ]
+        },
+        "oscar_hall": {
+            "role": "user",
+            "resources": [
+                "db4",
+                "db6",
+                "db10",
+                "api10"
+            ]
+        },
+        "elena_smith": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "db5",
+                "server18"
+            ]
+        },
+        "diana_cook": {
+            "role": "guest",
+            "resources": [
+                "server13",
+                "server2",
+                "server5"
+            ]
+        },
+        "tony_kelly": {
+            "role": "user",
+            "resources": [
+                "server2",
+                "api4",
+                "api9",
+                "db10"
+            ]
+        },
+        "bob_torres": {
+            "role": "user",
+            "resources": [
+                "api10",
+                "db8",
+                "db1"
+            ]
+        },
+        "steve_parker": {
+            "role": "guest",
+            "resources": [
+                "db12",
+                "server6"
+            ]
+        },
+        "sophie_thompson": {
+            "role": "user",
+            "resources": [
+                "server7",
+                "db11",
+                "server3",
+                "api7"
+            ]
+        },
+        "hank_rogers": {
+            "role": "user",
+            "resources": [
+                "api4",
+                "db1",
+                "api7",
+                "db7",
+                "server2"
+            ]
+        },
+        "iris_sanchez": {
+            "role": "user",
+            "resources": [
+                "server3",
+                "db4",
+                "server8",
+                "api9"
+            ]
+        },
+        "daisy_mitchell": {
+            "role": "user",
+            "resources": [
+                "api8",
+                "db14",
+                "db12",
+                "server15",
+                "api5"
+            ]
+        },
+        "alice_martin": {
+            "role": "user",
+            "resources": [
+                "db7",
+                "server15"
+            ]
+        },
+        "travis_perry": {
+            "role": "guest",
+            "resources": [
+                "db15"
+            ]
+        },
+        "zoe_allen": {
+            "role": "user",
+            "resources": [
+                "server1"
+            ]
+        },
+        "nina_sanders": {
+            "role": "guest",
+            "resources": [
+                "api8",
+                "server8"
+            ]
+        },
+        "helen_hughes": {
+            "role": "admin",
+            "resources": [
+                "db15",
+                "api4",
+                "api7",
+                "server15",
+                "server8",
+                "server17",
+                "db12",
+                "db13"
+            ]
+        },
+        "amber_cook": {
+            "role": "guest",
+            "resources": [
+                "api2",
+                "server7",
+                "api7"
+            ]
+        },
+        "charlie_jenkins": {
+            "role": "user",
+            "resources": [
+                "server13",
+                "server10",
+                "api10",
+                "api2"
+            ]
+        },
+        "ray_rogers": {
+            "role": "guest",
+            "resources": [
+                "api4"
+            ]
+        },
+        "lisa_thompson": {
+            "role": "user",
+            "resources": [
+                "db10",
+                "api8",
+                "db8"
+            ]
+        },
+        "betty_jones1": {
+            "role": "admin",
+            "resources": [
+                "server1",
+                "server7",
+                "db2"
+            ]
+        },
+        "paula_howard": {
+            "role": "admin",
+            "resources": [
+                "db8",
+                "server10",
+                "server6",
+                "api5",
+                "server1",
+                "db4"
+            ]
+        },
+        "quinn_clark": {
+            "role": "user",
+            "resources": [
+                "db5",
+                "server14",
+                "db10"
+            ]
+        },
+        "calvin_long1": {
+            "role": "guest",
+            "resources": []
+        },
+        "travis_walker": {
+            "role": "guest",
+            "resources": [
+                "db7",
+                "api7"
+            ]
+        },
+        "sarah_scott": {
+            "role": "user",
+            "resources": [
+                "db7"
+            ]
+        },
+        "mia_martin": {
+            "role": "guest",
+            "resources": [
+                "server20",
+                "db13",
+                "db2"
+            ]
+        },
+        "yannick_clark": {
+            "role": "user",
+            "resources": [
+                "api1",
+                "server17",
+                "db3"
+            ]
+        },
+        "steve_taylor": {
+            "role": "guest",
+            "resources": [
+                "api9",
+                "server7"
+            ]
+        },
+        "kate_martin": {
+            "role": "user",
+            "resources": [
+                "server14"
+            ]
+        },
+        "amber_jenkins": {
+            "role": "guest",
+            "resources": [
+                "db3",
+                "server19",
+                "db9"
+            ]
+        },
+        "julia_long": {
+            "role": "user",
+            "resources": [
+                "server15",
+                "api10",
+                "server16",
+                "api2",
+                "db8"
+            ]
+        },
+        "brian_bailey": {
+            "role": "admin",
+            "resources": [
+                "api1",
+                "db10",
+                "server5"
+            ]
+        },
+        "diana_adams": {
+            "role": "user",
+            "resources": [
+                "db4",
+                "db1",
+                "api5"
+            ]
+        },
+        "steve_collins": {
+            "role": "admin",
+            "resources": [
+                "db14",
+                "server11",
+                "server4",
+                "db2",
+                "server1"
+            ]
+        },
+        "aaron_mitchell": {
+            "role": "user",
+            "resources": [
+                "api8",
+                "db2",
+                "server19",
+                "api2"
+            ]
+        },
+        "nina_sanchez": {
+            "role": "guest",
+            "resources": [
+                "db5",
+                "server10"
+            ]
+        },
+        "irene_ward": {
+            "role": "admin",
+            "resources": [
+                "db14",
+                "db13",
+                "db2",
+                "server3",
+                "db10",
+                "server1",
+                "server8",
+                "server6"
+            ]
+        },
+        "steve_lee": {
+            "role": "guest",
+            "resources": []
+        },
+        "lisa_bennett": {
+            "role": "admin",
+            "resources": [
+                "api3",
+                "server15",
+                "server7",
+                "api4",
+                "api7",
+                "server20"
+            ]
+        },
+        "uma_hughes": {
+            "role": "user",
+            "resources": [
+                "api2",
+                "db5"
+            ]
+        },
+        "nick_taylor": {
+            "role": "admin",
+            "resources": [
+                "server16",
+                "server14",
+                "server9",
+                "server17",
+                "api2",
+                "api5"
+            ]
+        },
+        "vera_powell": {
+            "role": "guest",
+            "resources": [
+                "db15"
+            ]
+        },
+        "sarah_cook": {
+            "role": "user",
+            "resources": [
+                "db8",
+                "api1",
+                "db14",
+                "db7",
+                "server1"
+            ]
+        },
+        "sarah_rogers": {
+            "role": "admin",
+            "resources": [
+                "server15",
+                "db12",
+                "server7",
+                "server9",
+                "db8",
+                "server14",
+                "db9",
+                "db13"
+            ]
+        },
+        "sophie_kelly": {
+            "role": "guest",
+            "resources": [
+                "api6",
+                "server2",
+                "server5"
+            ]
+        },
+        "eve_walker": {
+            "role": "guest",
+            "resources": []
+        },
+        "eve_rivera": {
+            "role": "admin",
+            "resources": [
+                "api3",
+                "api1",
+                "server16",
+                "server17"
+            ]
+        },
+        "nora_ross": {
+            "role": "guest",
+            "resources": [
+                "server2"
+            ]
+        },
+        "wade_thompson": {
+            "role": "user",
+            "resources": [
+                "api3",
+                "server8",
+                "api8"
+            ]
+        },
+        "grace_campbell": {
+            "role": "user",
+            "resources": [
+                "db13"
+            ]
+        },
+        "bob_murphy": {
+            "role": "user",
+            "resources": [
+                "server4"
+            ]
+        },
+        "uma_turner1": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db4",
+                "server5",
+                "server4"
+            ]
+        },
+        "george_walker1": {
+            "role": "user",
+            "resources": [
+                "server16"
+            ]
+        },
+        "eve_edwards": {
+            "role": "user",
+            "resources": [
+                "db10",
+                "server1"
+            ]
+        },
+        "betty_white": {
+            "role": "user",
+            "resources": [
+                "api10"
+            ]
+        },
+        "elliot_sanders": {
+            "role": "guest",
+            "resources": [
+                "server10",
+                "db5"
+            ]
+        },
+        "daisy_rogers": {
+            "role": "guest",
+            "resources": [
+                "server14",
+                "server16",
+                "server6"
+            ]
+        },
+        "wade_bennett": {
+            "role": "user",
+            "resources": [
+                "server7",
+                "api7",
+                "server18",
+                "server9",
+                "db3"
+            ]
+        },
+        "george_jenkins": {
+            "role": "guest",
+            "resources": []
+        },
+        "eve_rivera1": {
+            "role": "admin",
+            "resources": [
+                "server16",
+                "server8",
+                "server12",
+                "server18"
+            ]
+        },
+        "paula_collins": {
+            "role": "guest",
+            "resources": [
+                "server4",
+                "server20"
+            ]
+        },
+        "irene_brooks": {
+            "role": "guest",
+            "resources": [
+                "db8",
+                "db5"
+            ]
+        },
+        "alice_patterson": {
+            "role": "user",
+            "resources": [
+                "api4",
+                "server4",
+                "db4",
+                "api3",
+                "server8"
+            ]
+        },
+        "peter_cooper": {
+            "role": "user",
+            "resources": [
+                "server14",
+                "server16",
+                "db11",
+                "api2",
+                "db13"
+            ]
+        },
+        "olivia_collins": {
+            "role": "user",
+            "resources": [
+                "db6",
+                "db8",
+                "api2",
+                "db1"
+            ]
+        },
+        "hugo_evans": {
+            "role": "guest",
+            "resources": [
+                "api8",
+                "db7",
+                "api9"
+            ]
+        },
+        "victor_powell": {
+            "role": "user",
+            "resources": [
+                "server5",
+                "api1",
+                "api3",
+                "api5"
+            ]
+        },
+        "julia_henderson": {
+            "role": "user",
+            "resources": [
+                "api8",
+                "api9",
+                "db9"
+            ]
+        },
+        "ulrich_edwards": {
+            "role": "user",
+            "resources": [
+                "db3"
+            ]
+        },
+        "frank_roberts": {
+            "role": "user",
+            "resources": [
+                "server15",
+                "db5"
+            ]
+        },
+        "mike_king": {
+            "role": "user",
+            "resources": [
+                "server13",
+                "server2",
+                "server19",
+                "db13",
+                "server7"
+            ]
+        },
+        "yannick_howard": {
+            "role": "user",
+            "resources": [
+                "api1",
+                "server18"
+            ]
+        },
+        "travis_brown": {
+            "role": "user",
+            "resources": [
+                "api5",
+                "db5",
+                "server3"
+            ]
+        },
+        "chloe_wilson": {
+            "role": "admin",
+            "resources": [
+                "db12",
+                "server17",
+                "server15",
+                "server11",
+                "server6"
+            ]
+        },
+        "penny_brooks": {
+            "role": "user",
+            "resources": [
+                "db1",
+                "api4",
+                "server12",
+                "server14"
+            ]
+        },
+        "amber_phillips": {
+            "role": "guest",
+            "resources": []
+        },
+        "quinn_jenkins": {
+            "role": "user",
+            "resources": [
+                "server19",
+                "api8",
+                "server13",
+                "api7"
+            ]
+        },
+        "xavier_james": {
+            "role": "user",
+            "resources": [
+                "api8",
+                "server19",
+                "server13",
+                "db6",
+                "db14"
+            ]
+        },
+        "irene_king": {
+            "role": "user",
+            "resources": [
+                "server3",
+                "db11",
+                "api6"
+            ]
+        },
+        "leo_ward": {
+            "role": "user",
+            "resources": [
+                "server5"
+            ]
+        },
+        "rachel_garcia": {
+            "role": "user",
+            "resources": [
+                "server10"
+            ]
+        },
+        "wade_rivera": {
+            "role": "guest",
+            "resources": [
+                "server7",
+                "server11"
+            ]
+        },
+        "lisa_allen": {
+            "role": "guest",
+            "resources": [
+                "db11",
+                "api6",
+                "db4"
+            ]
+        },
+        "helen_cox": {
+            "role": "admin",
+            "resources": [
+                "db8",
+                "db10",
+                "db9",
+                "server3",
+                "server4"
+            ]
+        },
+        "fiona_carter": {
+            "role": "guest",
+            "resources": [
+                "server20",
+                "api7"
+            ]
+        },
+        "zach_sanchez": {
+            "role": "user",
+            "resources": [
+                "api5",
+                "db13"
+            ]
+        },
+        "brian_ramirez": {
+            "role": "user",
+            "resources": [
+                "server19",
+                "db1"
+            ]
+        },
+        "karen_bennett": {
+            "role": "user",
+            "resources": [
+                "db5"
+            ]
+        },
+        "charlie_green": {
+            "role": "admin",
+            "resources": [
+                "server1",
+                "server8",
+                "api1"
+            ]
+        },
+        "helen_ramirez": {
+            "role": "user",
+            "resources": [
+                "server11",
+                "api6",
+                "server14"
+            ]
+        },
+        "george_perry": {
+            "role": "admin",
+            "resources": [
+                "db6",
+                "server15",
+                "server18"
+            ]
+        },
+        "diana_baker": {
+            "role": "admin",
+            "resources": [
+                "db1",
+                "db15",
+                "db12",
+                "server13",
+                "api2",
+                "server9",
+                "server12",
+                "server11"
+            ]
+        },
+        "george_wood": {
+            "role": "guest",
+            "resources": [
+                "db4"
+            ]
+        },
+        "travis_ramirez1": {
+            "role": "guest",
+            "resources": [
+                "server6",
+                "db2"
+            ]
+        },
+        "mia_reed": {
+            "role": "user",
+            "resources": [
+                "server18"
+            ]
+        },
+        "nick_sanders": {
+            "role": "guest",
+            "resources": [
+                "db4",
+                "db11"
+            ]
+        },
+        "aaron_rivera": {
+            "role": "user",
+            "resources": [
+                "server7",
+                "db10",
+                "api6"
+            ]
+        },
+        "olivia_jones": {
+            "role": "guest",
+            "resources": []
+        },
+        "victor_davis": {
+            "role": "user",
+            "resources": [
+                "server4",
+                "server8",
+                "db11",
+                "db1",
+                "db7"
+            ]
+        },
+        "amber_nelson": {
+            "role": "guest",
+            "resources": []
+        },
+        "tony_patterson": {
+            "role": "user",
+            "resources": [
+                "db6",
+                "db11",
+                "api3",
+                "db9",
+                "api6"
+            ]
+        },
+        "ray_cox": {
+            "role": "guest",
+            "resources": [
+                "server11",
+                "db14",
+                "db12"
+            ]
+        },
+        "sophie_hughes": {
+            "role": "user",
+            "resources": [
+                "server17",
+                "server9"
+            ]
+        },
+        "gina_garcia": {
+            "role": "guest",
+            "resources": [
+                "api7",
+                "api6",
+                "db12"
+            ]
+        },
+        "xavier_wilson": {
+            "role": "user",
+            "resources": [
+                "api8",
+                "server4",
+                "server7"
+            ]
+        },
+        "iris_brown": {
+            "role": "admin",
+            "resources": [
+                "api5",
+                "api6",
+                "server13",
+                "server5",
+                "db6",
+                "db12",
+                "api1"
+            ]
+        },
+        "grace_baker": {
+            "role": "user",
+            "resources": [
+                "server11",
+                "db12"
+            ]
+        },
+        "kate_taylor": {
+            "role": "guest",
+            "resources": [
+                "server17",
+                "db7"
+            ]
+        },
+        "chloe_coleman": {
+            "role": "user",
+            "resources": [
+                "server8",
+                "server18",
+                "api8",
+                "db2"
+            ]
+        },
+        "helen_reed": {
+            "role": "guest",
+            "resources": [
+                "server8"
+            ]
+        },
+        "bob_ramirez": {
+            "role": "user",
+            "resources": [
+                "server17",
+                "db12"
+            ]
+        },
+        "iris_rogers": {
+            "role": "user",
+            "resources": [
+                "server17",
+                "server14"
+            ]
+        },
+        "calvin_wilson": {
+            "role": "guest",
+            "resources": [
+                "db5",
+                "db11",
+                "db14"
+            ]
+        },
+        "elliot_phillips": {
+            "role": "guest",
+            "resources": [
+                "db8",
+                "api4"
+            ]
+        },
+        "nora_green": {
+            "role": "admin",
+            "resources": [
+                "api7",
+                "db12",
+                "api4",
+                "db2",
+                "server1"
+            ]
+        },
+        "alice_roberts": {
+            "role": "guest",
+            "resources": []
+        },
+        "mike_james": {
+            "role": "guest",
+            "resources": [
+                "server2",
+                "api4"
+            ]
+        },
+        "wade_gray1": {
+            "role": "guest",
+            "resources": [
+                "server9",
+                "server17",
+                "db14"
+            ]
+        },
+        "diana_kelly": {
+            "role": "user",
+            "resources": [
+                "server6",
+                "server12",
+                "api3"
+            ]
+        },
+        "helen_smith": {
+            "role": "user",
+            "resources": [
+                "api7"
+            ]
+        },
+        "ray_baker": {
+            "role": "user",
+            "resources": [
+                "server4",
+                "server13",
+                "api5"
+            ]
+        },
+        "steve_young": {
+            "role": "user",
+            "resources": [
+                "server10",
+                "server12"
+            ]
+        },
+        "aaron_edwards": {
+            "role": "user",
+            "resources": [
+                "db13",
+                "server11"
+            ]
+        },
+        "yannick_cook": {
+            "role": "guest",
+            "resources": [
+                "db1",
+                "server10"
+            ]
+        },
+        "rachel_perry": {
+            "role": "user",
+            "resources": [
+                "api3"
+            ]
+        },
+        "nora_carter": {
+            "role": "guest",
+            "resources": [
+                "api1",
+                "api5"
+            ]
+        },
+        "hank_barnes": {
+            "role": "guest",
+            "resources": []
+        },
+        "zoe_torres": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "api10"
+            ]
+        },
+        "hank_martin": {
+            "role": "user",
+            "resources": [
+                "db4",
+                "server9"
+            ]
+        },
+        "diana_coleman": {
+            "role": "user",
+            "resources": [
+                "server5"
+            ]
+        },
+        "sophie_howard": {
+            "role": "user",
+            "resources": [
+                "db10",
+                "server2"
+            ]
+        },
+        "ursula_adams": {
+            "role": "user",
+            "resources": [
+                "server5",
+                "server13"
+            ]
+        },
+        "victor_green": {
+            "role": "user",
+            "resources": [
+                "db8",
+                "db12",
+                "server12"
+            ]
+        },
+        "tina_parker": {
+            "role": "guest",
+            "resources": [
+                "server12",
+                "server5",
+                "api6"
+            ]
+        },
+        "daisy_brown": {
+            "role": "guest",
+            "resources": []
+        },
+        "zach_smith": {
+            "role": "guest",
+            "resources": [
+                "server9"
+            ]
+        },
+        "sophie_white": {
+            "role": "user",
+            "resources": [
+                "server8",
+                "api6",
+                "server12"
+            ]
+        },
+        "jack_carter": {
+            "role": "user",
+            "resources": [
+                "db7"
+            ]
+        },
+        "nick_clark": {
+            "role": "user",
+            "resources": [
+                "api8",
+                "server12",
+                "server4",
+                "db10"
+            ]
+        },
+        "iris_price": {
+            "role": "admin",
+            "resources": [
+                "db1",
+                "server10",
+                "server1",
+                "api1",
+                "api10",
+                "server6",
+                "server9",
+                "db6"
+            ]
+        },
+        "paula_white": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "api10",
+                "server20",
+                "server14"
+            ]
+        },
+        "charlie_sanchez": {
+            "role": "guest",
+            "resources": [
+                "server9",
+                "db4",
+                "api1"
+            ]
+        },
+        "oscar_mitchell": {
+            "role": "admin",
+            "resources": [
+                "server10",
+                "server1",
+                "db8",
+                "api7",
+                "db3",
+                "api9"
+            ]
+        },
+        "travis_richardson": {
+            "role": "user",
+            "resources": [
+                "server9",
+                "server6",
+                "server8",
+                "server5",
+                "db4"
+            ]
+        },
+        "hank_wilson": {
+            "role": "user",
+            "resources": [
+                "api10",
+                "api5",
+                "db13"
+            ]
+        },
+        "bob_rivera": {
+            "role": "guest",
+            "resources": [
+                "db7",
+                "server11"
+            ]
+        },
+        "julia_jones": {
+            "role": "user",
+            "resources": [
+                "server5",
+                "server3"
+            ]
+        },
+        "rachel_barnes": {
+            "role": "guest",
+            "resources": [
+                "server19"
+            ]
+        },
+        "hank_wilson1": {
+            "role": "user",
+            "resources": [
+                "db12",
+                "api6",
+                "server3",
+                "server8"
+            ]
+        },
+        "oscar_green": {
+            "role": "user",
+            "resources": [
+                "db13"
+            ]
+        },
+        "grace_turner": {
+            "role": "user",
+            "resources": [
+                "db13"
+            ]
+        },
+        "nick_kelly": {
+            "role": "admin",
+            "resources": [
+                "server5",
+                "api8",
+                "server8",
+                "server12",
+                "server1",
+                "api6",
+                "server16"
+            ]
+        },
+        "quentin_thompson": {
+            "role": "user",
+            "resources": [
+                "api6",
+                "db10"
+            ]
+        },
+        "gina_torres": {
+            "role": "user",
+            "resources": [
+                "server7",
+                "api6",
+                "api5",
+                "api10",
+                "api9"
+            ]
+        },
+        "grace_thompson": {
+            "role": "user",
+            "resources": [
+                "db15",
+                "server20"
+            ]
+        },
+        "bob_evans": {
+            "role": "user",
+            "resources": [
+                "db13",
+                "api1"
+            ]
+        },
+        "oscar_thompson": {
+            "role": "guest",
+            "resources": [
+                "server3",
+                "server2"
+            ]
+        },
+        "uma_campbell": {
+            "role": "guest",
+            "resources": [
+                "server1",
+                "server6"
+            ]
+        },
+        "daisy_coleman1": {
+            "role": "guest",
+            "resources": [
+                "db12"
+            ]
+        },
+        "brian_howard": {
+            "role": "user",
+            "resources": [
+                "server2",
+                "server6",
+                "db11",
+                "api6"
+            ]
+        },
+        "nina_evans": {
+            "role": "user",
+            "resources": [
+                "db7",
+                "db12",
+                "server15",
+                "server19"
+            ]
+        },
+        "nick_davis": {
+            "role": "admin",
+            "resources": [
+                "db6",
+                "server11",
+                "db10",
+                "server2",
+                "server13",
+                "server7",
+                "server19",
+                "server3"
+            ]
+        },
+        "george_green": {
+            "role": "admin",
+            "resources": [
+                "server7",
+                "server14",
+                "db8",
+                "api3"
+            ]
+        },
+        "yasmin_henderson": {
+            "role": "admin",
+            "resources": [
+                "db8",
+                "server15",
+                "db7",
+                "db4",
+                "api3",
+                "server10",
+                "db9",
+                "server18"
+            ]
+        },
+        "rick_henderson": {
+            "role": "user",
+            "resources": [
+                "server18",
+                "db4"
+            ]
+        },
+        "charlie_baker": {
+            "role": "user",
+            "resources": [
+                "db10",
+                "api2",
+                "server14",
+                "db3",
+                "server10"
+            ]
+        },
+        "nora_turner": {
+            "role": "user",
+            "resources": [
+                "api3",
+                "server7"
+            ]
+        },
+        "frank_brooks": {
+            "role": "user",
+            "resources": [
+                "api3",
+                "db11",
+                "db8",
+                "api4"
+            ]
+        },
+        "mary_peterson": {
+            "role": "user",
+            "resources": [
+                "api9",
+                "db12"
+            ]
+        },
+        "wendy_bell": {
+            "role": "admin",
+            "resources": [
+                "api10",
+                "server10",
+                "server20",
+                "server14",
+                "server7",
+                "api9",
+                "server18",
+                "server11"
+            ]
+        },
+        "nick_edwards": {
+            "role": "guest",
+            "resources": [
+                "api1",
+                "server1",
+                "server13"
+            ]
+        },
+        "mary_patterson": {
+            "role": "guest",
+            "resources": [
+                "server2",
+                "db1"
+            ]
+        },
+        "brian_allen": {
+            "role": "guest",
+            "resources": []
+        },
+        "vera_bailey": {
+            "role": "guest",
+            "resources": [
+                "db1",
+                "api3"
+            ]
+        },
+        "james_wilson": {
+            "role": "user",
+            "resources": [
+                "db15"
+            ]
+        },
+        "zach_jenkins": {
+            "role": "user",
+            "resources": [
+                "server6",
+                "server14"
+            ]
+        },
+        "tina_brooks": {
+            "role": "user",
+            "resources": [
+                "db1",
+                "server18",
+                "server10"
+            ]
+        },
+        "brian_baker": {
+            "role": "user",
+            "resources": [
+                "server13",
+                "db14",
+                "server15",
+                "db4"
+            ]
+        },
+        "derek_ramirez": {
+            "role": "guest",
+            "resources": [
+                "db3"
+            ]
+        },
+        "gina_king": {
+            "role": "admin",
+            "resources": [
+                "db2",
+                "db9",
+                "server9",
+                "api9",
+                "db1"
+            ]
+        },
+        "james_perry": {
+            "role": "admin",
+            "resources": [
+                "server13",
+                "server10",
+                "api6",
+                "db7"
+            ]
+        },
+        "jack_white": {
+            "role": "user",
+            "resources": [
+                "api7",
+                "db9",
+                "server6",
+                "db6",
+                "server8"
+            ]
+        },
+        "bob_reed": {
+            "role": "user",
+            "resources": [
+                "db6",
+                "api3",
+                "server12",
+                "server9"
+            ]
+        },
+        "helen_edwards": {
+            "role": "admin",
+            "resources": [
+                "api6",
+                "server6",
+                "db9",
+                "server3",
+                "server9",
+                "api3",
+                "server11"
+            ]
+        },
+        "ulrich_powell1": {
+            "role": "user",
+            "resources": [
+                "server7",
+                "server4",
+                "db1",
+                "db7",
+                "api4"
+            ]
+        },
+        "irene_scott": {
+            "role": "guest",
+            "resources": []
+        },
+        "vera_brooks": {
+            "role": "user",
+            "resources": [
+                "server20",
+                "db4",
+                "db3",
+                "db10"
+            ]
+        },
+        "gina_green": {
+            "role": "guest",
+            "resources": []
+        },
+        "olivia_ramirez": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "server14"
+            ]
+        },
+        "fiona_roberts": {
+            "role": "admin",
+            "resources": [
+                "server2",
+                "db4",
+                "server6",
+                "db13",
+                "server12"
+            ]
+        },
+        "wendy_peterson": {
+            "role": "guest",
+            "resources": [
+                "db8",
+                "api10"
+            ]
+        },
+        "mary_nelson": {
+            "role": "user",
+            "resources": [
+                "api5",
+                "server8",
+                "api3"
+            ]
+        },
+        "betty_richardson": {
+            "role": "guest",
+            "resources": []
+        },
+        "nina_stewart": {
+            "role": "guest",
+            "resources": [
+                "server11",
+                "db6"
+            ]
+        },
+        "vera_thompson": {
+            "role": "guest",
+            "resources": [
+                "server18"
+            ]
+        },
+        "tony_hall": {
+            "role": "user",
+            "resources": [
+                "server11"
+            ]
+        },
+        "frank_king": {
+            "role": "user",
+            "resources": [
+                "db1",
+                "server2",
+                "db5",
+                "server5",
+                "db4"
+            ]
+        },
+        "daisy_patterson": {
+            "role": "guest",
+            "resources": [
+                "server10",
+                "db1"
+            ]
+        },
+        "oscar_scott": {
+            "role": "guest",
+            "resources": [
+                "server15",
+                "api5"
+            ]
+        },
+        "hank_ross": {
+            "role": "user",
+            "resources": [
+                "db1",
+                "api7"
+            ]
+        },
+        "lisa_brown": {
+            "role": "user",
+            "resources": [
+                "db4"
+            ]
+        },
+        "sophie_bennett": {
+            "role": "user",
+            "resources": [
+                "db10",
+                "api4",
+                "server2",
+                "db9",
+                "db12"
+            ]
+        },
+        "lisa_murphy": {
+            "role": "user",
+            "resources": [
+                "db4",
+                "server3",
+                "server4",
+                "server10",
+                "api1"
+            ]
+        },
+        "steve_king": {
+            "role": "admin",
+            "resources": [
+                "api3",
+                "db8",
+                "server9",
+                "server18",
+                "api2",
+                "db12",
+                "server1",
+                "db13"
+            ]
+        },
+        "quinn_nelson": {
+            "role": "guest",
+            "resources": [
+                "server7",
+                "api3",
+                "db15"
+            ]
+        },
+        "lisa_davis": {
+            "role": "user",
+            "resources": [
+                "server9",
+                "server2",
+                "db13",
+                "api4"
+            ]
+        },
+        "amber_carter": {
+            "role": "user",
+            "resources": [
+                "server20",
+                "server5",
+                "db15",
+                "api9",
+                "server14"
+            ]
+        },
+        "gina_morris": {
+            "role": "user",
+            "resources": [
+                "server3",
+                "server1"
+            ]
+        },
+        "oscar_howard": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "server1",
+                "server3"
+            ]
+        },
+        "leo_martinez1": {
+            "role": "user",
+            "resources": [
+                "api8",
+                "server6",
+                "db11",
+                "server15"
+            ]
+        },
+        "vera_barnes": {
+            "role": "user",
+            "resources": [
+                "db7"
+            ]
+        },
+        "tina_evans": {
+            "role": "user",
+            "resources": [
+                "db8"
+            ]
+        },
+        "victor_bailey": {
+            "role": "user",
+            "resources": [
+                "server15",
+                "server10",
+                "api2"
+            ]
+        },
+        "uma_bell": {
+            "role": "user",
+            "resources": [
+                "server16",
+                "db7",
+                "api1",
+                "server12"
+            ]
+        },
+        "oscar_lee": {
+            "role": "user",
+            "resources": [
+                "db4",
+                "db12",
+                "db13",
+                "api4"
+            ]
+        },
+        "tina_collins": {
+            "role": "user",
+            "resources": [
+                "server18",
+                "api6"
+            ]
+        },
+        "amber_turner": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "db12"
+            ]
+        },
+        "kevin_kelly1": {
+            "role": "guest",
+            "resources": [
+                "db1",
+                "db8"
+            ]
+        },
+        "aaron_parker": {
+            "role": "guest",
+            "resources": [
+                "api7",
+                "server13"
+            ]
+        },
+        "amber_scott": {
+            "role": "user",
+            "resources": [
+                "server9",
+                "db3",
+                "db7",
+                "server5",
+                "db9"
+            ]
+        },
+        "wade_jones": {
+            "role": "user",
+            "resources": [
+                "server15",
+                "db5",
+                "server10",
+                "api6",
+                "server4"
+            ]
+        },
+        "zach_king": {
+            "role": "user",
+            "resources": [
+                "server17",
+                "db14",
+                "server12",
+                "server16"
+            ]
+        },
+        "aaron_walker": {
+            "role": "user",
+            "resources": [
+                "db11",
+                "db2",
+                "api4",
+                "db10",
+                "api8"
+            ]
+        },
+        "jack_martin": {
+            "role": "user",
+            "resources": [
+                "server4",
+                "api6",
+                "server9",
+                "server1"
+            ]
+        },
+        "vera_murphy": {
+            "role": "user",
+            "resources": [
+                "server16",
+                "db10",
+                "server3"
+            ]
+        },
+        "irene_ross": {
+            "role": "user",
+            "resources": [
+                "server17",
+                "api8"
+            ]
+        },
+        "ursula_reed": {
+            "role": "user",
+            "resources": [
+                "server14",
+                "api9",
+                "server3",
+                "server16",
+                "server19"
+            ]
+        },
+        "george_long": {
+            "role": "guest",
+            "resources": []
+        },
+        "bob_allen": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "db15",
+                "server13",
+                "server8"
+            ]
+        },
+        "jack_white1": {
+            "role": "user",
+            "resources": [
+                "server2",
+                "api5",
+                "server14",
+                "server20",
+                "db7"
+            ]
+        },
+        "ray_campbell": {
+            "role": "guest",
+            "resources": [
+                "server9",
+                "db6",
+                "db7"
+            ]
+        },
+        "vera_barnes1": {
+            "role": "user",
+            "resources": [
+                "api1",
+                "db7",
+                "server9",
+                "server6",
+                "db13"
+            ]
+        },
+        "george_morgan": {
+            "role": "user",
+            "resources": [
+                "db4",
+                "db6",
+                "server5",
+                "server19",
+                "server6"
+            ]
+        },
+        "tony_ramirez": {
+            "role": "user",
+            "resources": [
+                "api9"
+            ]
+        },
+        "bob_smith": {
+            "role": "guest",
+            "resources": [
+                "server17",
+                "db3"
+            ]
+        },
+        "amber_evans": {
+            "role": "user",
+            "resources": [
+                "db14",
+                "server3"
+            ]
+        },
+        "sarah_peterson": {
+            "role": "user",
+            "resources": [
+                "server11",
+                "server7",
+                "api3",
+                "db13"
+            ]
+        },
+        "zoe_king": {
+            "role": "user",
+            "resources": [
+                "server4",
+                "server19",
+                "server14",
+                "server3",
+                "server12"
+            ]
+        },
+        "zoe_watson": {
+            "role": "guest",
+            "resources": [
+                "db7",
+                "db6",
+                "server18"
+            ]
+        },
+        "uma_collins": {
+            "role": "admin",
+            "resources": [
+                "server17",
+                "server8",
+                "server7",
+                "db9",
+                "server13"
+            ]
+        },
+        "tina_sanders": {
+            "role": "guest",
+            "resources": []
+        },
+        "victor_cooper": {
+            "role": "user",
+            "resources": [
+                "server5",
+                "db15",
+                "db10",
+                "db9",
+                "db5"
+            ]
+        },
+        "peter_young": {
+            "role": "user",
+            "resources": [
+                "db12",
+                "db9",
+                "server6",
+                "db14",
+                "api1"
+            ]
+        },
+        "kevin_parker1": {
+            "role": "user",
+            "resources": [
+                "server13",
+                "api2",
+                "server9",
+                "db4"
+            ]
+        },
+        "betty_lee": {
+            "role": "admin",
+            "resources": [
+                "server5",
+                "api8",
+                "db8",
+                "server8",
+                "server6",
+                "server3",
+                "api6"
+            ]
+        },
+        "sarah_parker": {
+            "role": "user",
+            "resources": [
+                "api9"
+            ]
+        },
+        "tony_perez": {
+            "role": "guest",
+            "resources": [
+                "db11",
+                "api4",
+                "server8"
+            ]
+        },
+        "steve_smith": {
+            "role": "user",
+            "resources": [
+                "api10",
+                "server11",
+                "server20"
+            ]
+        },
+        "alice_james": {
+            "role": "guest",
+            "resources": []
+        },
+        "jack_wood": {
+            "role": "admin",
+            "resources": [
+                "api1",
+                "db15",
+                "server8",
+                "db2",
+                "server6",
+                "server1",
+                "server13"
+            ]
+        },
+        "vera_coleman2": {
+            "role": "guest",
+            "resources": [
+                "api1"
+            ]
+        },
+        "ursula_watson": {
+            "role": "guest",
+            "resources": [
+                "server3",
+                "db13",
+                "db3"
+            ]
+        },
+        "xavier_green": {
+            "role": "user",
+            "resources": [
+                "server11",
+                "server1",
+                "server7"
+            ]
+        },
+        "liam_lee": {
+            "role": "user",
+            "resources": [
+                "api6",
+                "api8",
+                "server13"
+            ]
+        },
+        "rachel_edwards1": {
+            "role": "user",
+            "resources": [
+                "db7"
+            ]
+        },
+        "brian_sanders": {
+            "role": "user",
+            "resources": [
+                "db14",
+                "db4",
+                "server5"
+            ]
+        },
+        "oscar_murphy": {
+            "role": "guest",
+            "resources": [
+                "server6",
+                "db5",
+                "db8"
+            ]
+        },
+        "liam_wood": {
+            "role": "guest",
+            "resources": [
+                "db14",
+                "db8",
+                "api6"
+            ]
+        },
+        "lisa_white": {
+            "role": "user",
+            "resources": [
+                "api1",
+                "api4",
+                "server8",
+                "db15",
+                "db6"
+            ]
+        },
+        "oscar_watson": {
+            "role": "user",
+            "resources": [
+                "api10",
+                "api7"
+            ]
+        },
+        "nick_murphy": {
+            "role": "user",
+            "resources": [
+                "api8",
+                "db11",
+                "server1",
+                "db3"
+            ]
+        },
+        "derek_carter": {
+            "role": "user",
+            "resources": [
+                "db15"
+            ]
+        },
+        "yasmin_evans": {
+            "role": "guest",
+            "resources": [
+                "api1",
+                "db12",
+                "server17"
+            ]
+        },
+        "yasmin_rivera": {
+            "role": "user",
+            "resources": [
+                "db15",
+                "db2",
+                "db10",
+                "server10"
+            ]
+        },
+        "wade_barnes": {
+            "role": "user",
+            "resources": [
+                "api4",
+                "server8",
+                "db13",
+                "db4",
+                "api10"
+            ]
+        },
+        "liam_james": {
+            "role": "user",
+            "resources": [
+                "db15",
+                "api1"
+            ]
+        },
+        "tony_hall1": {
+            "role": "guest",
+            "resources": [
+                "server15"
+            ]
+        },
+        "nora_murphy1": {
+            "role": "user",
+            "resources": [
+                "server19",
+                "db11",
+                "api7"
+            ]
+        },
+        "peter_cooper1": {
+            "role": "user",
+            "resources": [
+                "api5"
+            ]
+        },
+        "zoe_ramirez": {
+            "role": "user",
+            "resources": [
+                "api9",
+                "api3",
+                "api10",
+                "server18",
+                "server13"
+            ]
+        },
+        "kevin_price": {
+            "role": "admin",
+            "resources": [
+                "db10",
+                "db9",
+                "db13",
+                "server10",
+                "api4",
+                "server14",
+                "api9"
+            ]
+        },
+        "frank_king1": {
+            "role": "admin",
+            "resources": [
+                "server15",
+                "api5",
+                "server10",
+                "server17",
+                "api2",
+                "api1",
+                "api6"
+            ]
+        },
+        "rick_bailey": {
+            "role": "guest",
+            "resources": [
+                "server10",
+                "server13"
+            ]
+        },
+        "eve_morgan": {
+            "role": "guest",
+            "resources": [
+                "db10",
+                "api8"
+            ]
+        },
+        "victor_green1": {
+            "role": "admin",
+            "resources": [
+                "db15",
+                "db6",
+                "server1"
+            ]
+        },
+        "derek_sanchez": {
+            "role": "user",
+            "resources": [
+                "server4",
+                "server16"
+            ]
+        },
+        "wade_turner": {
+            "role": "guest",
+            "resources": [
+                "api2",
+                "db15",
+                "api7"
+            ]
+        },
+        "sarah_watson": {
+            "role": "user",
+            "resources": [
+                "server13",
+                "server8",
+                "server7",
+                "api1",
+                "server11"
+            ]
+        },
+        "elliot_watson": {
+            "role": "guest",
+            "resources": []
+        },
+        "alice_wood": {
+            "role": "user",
+            "resources": [
+                "api8",
+                "server4",
+                "db14"
+            ]
+        },
+        "derek_reed": {
+            "role": "guest",
+            "resources": [
+                "db4"
+            ]
+        },
+        "mary_henderson": {
+            "role": "guest",
+            "resources": [
+                "db7"
+            ]
+        },
+        "nick_martinez": {
+            "role": "user",
+            "resources": [
+                "server10",
+                "server7",
+                "db10",
+                "server14",
+                "server19"
+            ]
+        },
+        "paula_cox": {
+            "role": "user",
+            "resources": [
+                "api9"
+            ]
+        },
+        "mike_turner": {
+            "role": "guest",
+            "resources": [
+                "server14"
+            ]
+        },
+        "fiona_mitchell": {
+            "role": "user",
+            "resources": [
+                "server16",
+                "server3",
+                "api7",
+                "db15"
+            ]
+        },
+        "gina_ramirez": {
+            "role": "admin",
+            "resources": [
+                "server18",
+                "db8",
+                "api5",
+                "api10",
+                "api1"
+            ]
+        },
+        "nora_garcia": {
+            "role": "guest",
+            "resources": [
+                "db1"
+            ]
+        },
+        "brian_phillips": {
+            "role": "user",
+            "resources": [
+                "api3"
+            ]
+        },
+        "charlie_bailey": {
+            "role": "guest",
+            "resources": [
+                "db1",
+                "api7"
+            ]
+        },
+        "irene_murphy1": {
+            "role": "user",
+            "resources": [
+                "api2",
+                "server8"
+            ]
+        },
+        "calvin_taylor": {
+            "role": "guest",
+            "resources": [
+                "server17"
+            ]
+        },
+        "xavier_ward": {
+            "role": "user",
+            "resources": [
+                "api10"
+            ]
+        },
+        "hugo_brooks": {
+            "role": "user",
+            "resources": [
+                "api5",
+                "server3",
+                "api2",
+                "db15"
+            ]
+        },
+        "zoe_sanchez": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "api10",
+                "db6"
+            ]
+        },
+        "nora_martin": {
+            "role": "guest",
+            "resources": []
+        },
+        "sarah_white": {
+            "role": "admin",
+            "resources": [
+                "db10",
+                "db3",
+                "db7",
+                "db5",
+                "db12",
+                "server5",
+                "api4",
+                "server9"
+            ]
+        },
+        "elena_ward": {
+            "role": "user",
+            "resources": [
+                "server18"
+            ]
+        },
+        "chloe_brooks": {
+            "role": "admin",
+            "resources": [
+                "server12",
+                "server7",
+                "server20",
+                "api8"
+            ]
+        },
+        "iris_ramirez": {
+            "role": "user",
+            "resources": [
+                "server4"
+            ]
+        },
+        "yasmin_kelly": {
+            "role": "user",
+            "resources": [
+                "api10",
+                "server1",
+                "api8",
+                "server4",
+                "db9"
+            ]
+        },
+        "wendy_parker2": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "server6"
+            ]
+        },
+        "victor_peterson1": {
+            "role": "user",
+            "resources": [
+                "server19",
+                "db13",
+                "db2"
+            ]
+        },
+        "quinn_gray": {
+            "role": "user",
+            "resources": [
+                "db10"
+            ]
+        },
+        "wendy_davis": {
+            "role": "user",
+            "resources": [
+                "server3"
+            ]
+        },
+        "nina_lee": {
+            "role": "user",
+            "resources": [
+                "server12",
+                "db10"
+            ]
+        },
+        "fiona_garcia": {
+            "role": "user",
+            "resources": [
+                "server6",
+                "api9",
+                "db2",
+                "api10",
+                "db4"
+            ]
+        },
+        "kate_rogers": {
+            "role": "guest",
+            "resources": [
+                "db10"
+            ]
+        },
+        "victor_henderson": {
+            "role": "user",
+            "resources": [
+                "db1",
+                "server16",
+                "api10",
+                "server9"
+            ]
+        },
+        "penny_watson": {
+            "role": "guest",
+            "resources": [
+                "server14"
+            ]
+        },
+        "wade_reed": {
+            "role": "user",
+            "resources": [
+                "server12",
+                "api8",
+                "db6"
+            ]
+        },
+        "rick_martinez": {
+            "role": "admin",
+            "resources": [
+                "db6",
+                "server12",
+                "server18",
+                "db15",
+                "api3",
+                "api6",
+                "server7",
+                "server5"
+            ]
+        },
+        "calvin_wood": {
+            "role": "user",
+            "resources": [
+                "api3",
+                "db10"
+            ]
+        },
+        "mary_rivera": {
+            "role": "user",
+            "resources": [
+                "db4",
+                "server5",
+                "api9",
+                "db8",
+                "server19"
+            ]
+        },
+        "helen_edwards1": {
+            "role": "user",
+            "resources": [
+                "server11",
+                "db15",
+                "db13",
+                "server8"
+            ]
+        },
+        "zoe_walker": {
+            "role": "guest",
+            "resources": [
+                "db5",
+                "server3",
+                "server9"
+            ]
+        },
+        "nina_brooks": {
+            "role": "user",
+            "resources": [
+                "server12",
+                "db4",
+                "db1",
+                "db5",
+                "api9"
+            ]
+        },
+        "betty_wilson": {
+            "role": "admin",
+            "resources": [
+                "db9",
+                "db7",
+                "db4",
+                "db15",
+                "api7",
+                "server11",
+                "api3"
+            ]
+        },
+        "hugo_bell": {
+            "role": "user",
+            "resources": [
+                "db14"
+            ]
+        },
+        "peter_henderson": {
+            "role": "user",
+            "resources": [
+                "server2"
+            ]
+        },
+        "nick_rogers1": {
+            "role": "user",
+            "resources": [
+                "server6",
+                "server3",
+                "db2",
+                "db4"
+            ]
+        },
+        "wendy_perez": {
+            "role": "admin",
+            "resources": [
+                "server19",
+                "server16",
+                "server12",
+                "db6",
+                "api3",
+                "db9",
+                "server20"
+            ]
+        },
+        "aaron_roberts": {
+            "role": "user",
+            "resources": [
+                "server1",
+                "server16",
+                "db6",
+                "server8",
+                "api4"
+            ]
+        },
+        "charlie_reed": {
+            "role": "user",
+            "resources": [
+                "server20"
+            ]
+        },
+        "frank_price": {
+            "role": "admin",
+            "resources": [
+                "db14",
+                "db9",
+                "api10",
+                "api9",
+                "api5",
+                "db5",
+                "db7"
+            ]
+        },
+        "grace_scott": {
+            "role": "user",
+            "resources": [
+                "api10",
+                "db8",
+                "db10"
+            ]
+        },
+        "rick_henderson1": {
+            "role": "admin",
+            "resources": [
+                "server13",
+                "server9",
+                "db15",
+                "db8",
+                "server4",
+                "api3",
+                "api6",
+                "db9"
+            ]
+        },
+        "nora_morgan": {
+            "role": "user",
+            "resources": [
+                "server5",
+                "db8",
+                "server2"
+            ]
+        },
+        "elena_jenkins": {
+            "role": "guest",
+            "resources": []
+        },
+        "charlie_stewart": {
+            "role": "guest",
+            "resources": [
+                "api8",
+                "db1"
+            ]
+        },
+        "xavier_rogers": {
+            "role": "guest",
+            "resources": []
+        },
+        "nora_bell": {
+            "role": "user",
+            "resources": [
+                "server11",
+                "api7",
+                "api5"
+            ]
+        },
+        "rachel_white": {
+            "role": "user",
+            "resources": [
+                "db10",
+                "db9",
+                "server6"
+            ]
+        },
+        "james_martinez": {
+            "role": "user",
+            "resources": [
+                "db7",
+                "server17",
+                "api5"
+            ]
+        },
+        "uma_allen": {
+            "role": "guest",
+            "resources": [
+                "api10"
+            ]
+        },
+        "fiona_long": {
+            "role": "user",
+            "resources": [
+                "server20",
+                "db5",
+                "server18",
+                "api1"
+            ]
+        },
+        "kate_perry": {
+            "role": "guest",
+            "resources": [
+                "api6"
+            ]
+        },
+        "karen_martinez": {
+            "role": "user",
+            "resources": [
+                "db5",
+                "server11",
+                "db4"
+            ]
+        },
+        "zoe_cox": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "server4",
+                "server2",
+                "api8"
+            ]
+        },
+        "mary_mitchell": {
+            "role": "user",
+            "resources": [
+                "api8",
+                "server20",
+                "api4",
+                "server17"
+            ]
+        },
+        "grace_mitchell": {
+            "role": "guest",
+            "resources": []
+        },
+        "yasmin_lee1": {
+            "role": "user",
+            "resources": [
+                "server11",
+                "db3"
+            ]
+        },
+        "karen_rogers": {
+            "role": "admin",
+            "resources": [
+                "db6",
+                "db14",
+                "db13",
+                "db3",
+                "server13",
+                "server9",
+                "server17"
+            ]
+        },
+        "daisy_ross": {
+            "role": "guest",
+            "resources": []
+        },
+        "nora_wilson": {
+            "role": "user",
+            "resources": [
+                "api6",
+                "db13",
+                "api8",
+                "server18"
+            ]
+        },
+        "elliot_perry": {
+            "role": "guest",
+            "resources": [
+                "db12",
+                "server17",
+                "db10"
+            ]
+        },
+        "oscar_mitchell1": {
+            "role": "user",
+            "resources": [
+                "server14"
+            ]
+        },
+        "tony_taylor": {
+            "role": "user",
+            "resources": [
+                "server15",
+                "server1",
+                "db5",
+                "db2"
+            ]
+        },
+        "george_morris": {
+            "role": "guest",
+            "resources": [
+                "api2",
+                "server15",
+                "db11"
+            ]
+        },
+        "alice_cooper": {
+            "role": "user",
+            "resources": [
+                "api5",
+                "server19",
+                "server1",
+                "db3",
+                "db13"
+            ]
+        },
+        "brian_martin": {
+            "role": "user",
+            "resources": [
+                "db4",
+                "server1",
+                "server18",
+                "server2"
+            ]
+        },
+        "rick_watson": {
+            "role": "guest",
+            "resources": [
+                "server15"
+            ]
+        },
+        "wendy_mitchell": {
+            "role": "user",
+            "resources": [
+                "db10",
+                "api8",
+                "server14",
+                "db14"
+            ]
+        },
+        "derek_cook": {
+            "role": "user",
+            "resources": [
+                "db12"
+            ]
+        },
+        "alice_brown": {
+            "role": "user",
+            "resources": [
+                "server4",
+                "server7",
+                "server14",
+                "db12",
+                "db11"
+            ]
+        },
+        "julia_bailey1": {
+            "role": "user",
+            "resources": [
+                "api6"
+            ]
+        },
+        "diana_reed": {
+            "role": "user",
+            "resources": [
+                "api3"
+            ]
+        },
+        "hugo_scott": {
+            "role": "user",
+            "resources": [
+                "db4",
+                "server4"
+            ]
+        },
+        "penny_jones": {
+            "role": "user",
+            "resources": [
+                "db7",
+                "server9"
+            ]
+        },
+        "olivia_rogers1": {
+            "role": "guest",
+            "resources": [
+                "server15"
+            ]
+        },
+        "xavier_brooks": {
+            "role": "user",
+            "resources": [
+                "api9",
+                "server7",
+                "db3",
+                "server12"
+            ]
+        },
+        "steve_jenkins": {
+            "role": "user",
+            "resources": [
+                "db14",
+                "server1",
+                "db5",
+                "db10"
+            ]
+        },
+        "mike_perry": {
+            "role": "guest",
+            "resources": [
+                "server17"
+            ]
+        },
+        "grace_gray": {
+            "role": "user",
+            "resources": [
+                "api8"
+            ]
+        },
+        "steve_reed1": {
+            "role": "guest",
+            "resources": [
+                "db12",
+                "db15",
+                "server4"
+            ]
+        },
+        "nora_evans": {
+            "role": "user",
+            "resources": [
+                "api9",
+                "server5"
+            ]
+        },
+        "derek_howard": {
+            "role": "user",
+            "resources": [
+                "server18",
+                "api4",
+                "api6",
+                "server8"
+            ]
+        },
+        "sarah_brooks": {
+            "role": "guest",
+            "resources": [
+                "db6",
+                "api8"
+            ]
+        },
+        "derek_collins": {
+            "role": "guest",
+            "resources": [
+                "server8",
+                "db7"
+            ]
+        },
+        "grace_green": {
+            "role": "admin",
+            "resources": [
+                "server9",
+                "server7",
+                "api1",
+                "server14"
+            ]
+        },
+        "mary_clark": {
+            "role": "user",
+            "resources": [
+                "server7",
+                "server9",
+                "api7",
+                "api10"
+            ]
+        },
+        "frank_howard": {
+            "role": "guest",
+            "resources": [
+                "server19"
+            ]
+        },
+        "sarah_howard": {
+            "role": "user",
+            "resources": [
+                "server19",
+                "db7"
+            ]
+        },
+        "karen_cooper": {
+            "role": "admin",
+            "resources": [
+                "db9",
+                "db8",
+                "server17",
+                "server5",
+                "db12",
+                "db10"
+            ]
+        },
+        "ivan_ross": {
+            "role": "user",
+            "resources": [
+                "db6"
+            ]
+        },
+        "xena_white1": {
+            "role": "user",
+            "resources": [
+                "db6",
+                "api8"
+            ]
+        },
+        "quinn_roberts": {
+            "role": "guest",
+            "resources": []
+        },
+        "gina_henderson": {
+            "role": "user",
+            "resources": [
+                "api3"
+            ]
+        },
+        "quentin_barnes": {
+            "role": "user",
+            "resources": [
+                "server9",
+                "server14",
+                "server4",
+                "db3",
+                "db5"
+            ]
+        },
+        "oscar_howard1": {
+            "role": "guest",
+            "resources": []
+        },
+        "zach_white": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "db6",
+                "server3",
+                "api1",
+                "db7"
+            ]
+        },
+        "ulrich_ross": {
+            "role": "user",
+            "resources": [
+                "server3",
+                "server8",
+                "server17",
+                "api4",
+                "server1"
+            ]
+        },
+        "mia_henderson": {
+            "role": "user",
+            "resources": [
+                "server7",
+                "server10",
+                "server6",
+                "server14",
+                "server5"
+            ]
+        },
+        "kevin_watson": {
+            "role": "guest",
+            "resources": [
+                "server11"
+            ]
+        },
+        "hank_richardson": {
+            "role": "guest",
+            "resources": [
+                "db4",
+                "server4",
+                "db14"
+            ]
+        },
+        "travis_morgan": {
+            "role": "user",
+            "resources": [
+                "server18",
+                "db13",
+                "server3",
+                "api3"
+            ]
+        },
+        "helen_edwards2": {
+            "role": "admin",
+            "resources": [
+                "server12",
+                "api3",
+                "db4",
+                "server18"
+            ]
+        },
+        "julia_baker": {
+            "role": "user",
+            "resources": [
+                "api6",
+                "server17",
+                "server7",
+                "api8",
+                "db8"
+            ]
+        },
+        "victor_rivera": {
+            "role": "user",
+            "resources": [
+                "server5",
+                "api8",
+                "db15",
+                "db14"
+            ]
+        },
+        "quentin_evans": {
+            "role": "admin",
+            "resources": [
+                "db12",
+                "server18",
+                "server17"
+            ]
+        },
+        "vera_clark": {
+            "role": "user",
+            "resources": [
+                "api3",
+                "server3",
+                "server8",
+                "server16"
+            ]
+        },
+        "grace_perez": {
+            "role": "admin",
+            "resources": [
+                "db14",
+                "api7",
+                "db3"
+            ]
+        },
+        "frank_clark": {
+            "role": "user",
+            "resources": [
+                "api6",
+                "server12",
+                "db15",
+                "api1",
+                "db5"
+            ]
+        },
+        "mia_sanchez": {
+            "role": "user",
+            "resources": [
+                "server15",
+                "server4",
+                "server19",
+                "server14",
+                "db9"
+            ]
+        },
+        "hugo_henderson": {
+            "role": "guest",
+            "resources": [
+                "db4",
+                "server12"
+            ]
+        },
+        "tony_coleman": {
+            "role": "guest",
+            "resources": [
+                "server17",
+                "server1",
+                "api8"
+            ]
+        },
+        "wade_thompson1": {
+            "role": "admin",
+            "resources": [
+                "server4",
+                "server15",
+                "server7"
+            ]
+        },
+        "felix_murphy": {
+            "role": "user",
+            "resources": [
+                "server10",
+                "db1"
+            ]
+        },
+        "nina_walker": {
+            "role": "guest",
+            "resources": [
+                "server8"
+            ]
+        },
+        "paula_smith": {
+            "role": "user",
+            "resources": [
+                "db13",
+                "db3"
+            ]
+        },
+        "fiona_gray": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "db6",
+                "server14",
+                "api6",
+                "server13"
+            ]
+        },
+        "mary_stewart": {
+            "role": "user",
+            "resources": [
+                "server9",
+                "server4",
+                "db8",
+                "db15"
+            ]
+        },
+        "xavier_scott": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "server5",
+                "api5"
+            ]
+        },
+        "vera_brooks1": {
+            "role": "user",
+            "resources": [
+                "server12",
+                "api2",
+                "db10"
+            ]
+        },
+        "xavier_reed": {
+            "role": "user",
+            "resources": [
+                "db1",
+                "server11",
+                "server4",
+                "server9"
+            ]
+        },
+        "ray_barnes": {
+            "role": "guest",
+            "resources": []
+        },
+        "uma_bell1": {
+            "role": "user",
+            "resources": [
+                "db4",
+                "server15",
+                "db6",
+                "server3"
+            ]
+        },
+        "elena_king": {
+            "role": "admin",
+            "resources": [
+                "db5",
+                "db6",
+                "server19",
+                "db1",
+                "db12",
+                "server17"
+            ]
+        },
+        "kevin_coleman": {
+            "role": "user",
+            "resources": [
+                "api4",
+                "db3",
+                "api8",
+                "api6",
+                "api7"
+            ]
+        },
+        "helen_taylor": {
+            "role": "admin",
+            "resources": [
+                "server17",
+                "db4",
+                "server11",
+                "api7",
+                "server13",
+                "server18",
+                "server1"
+            ]
+        },
+        "xavier_patterson": {
+            "role": "user",
+            "resources": [
+                "api10",
+                "server14",
+                "server20"
+            ]
+        },
+        "calvin_cox": {
+            "role": "user",
+            "resources": [
+                "db12",
+                "server18",
+                "api2",
+                "api5"
+            ]
+        },
+        "kate_hughes": {
+            "role": "user",
+            "resources": [
+                "api6",
+                "db2",
+                "server14",
+                "db1",
+                "server16"
+            ]
+        },
+        "elena_white": {
+            "role": "user",
+            "resources": [
+                "server15",
+                "db3",
+                "api8"
+            ]
+        },
+        "daisy_jones": {
+            "role": "user",
+            "resources": [
+                "api4"
+            ]
+        },
+        "tony_lee1": {
+            "role": "user",
+            "resources": [
+                "server8",
+                "api4",
+                "api3",
+                "db6",
+                "server17"
+            ]
+        },
+        "travis_phillips": {
+            "role": "guest",
+            "resources": [
+                "db2",
+                "db7"
+            ]
+        },
+        "zach_garcia": {
+            "role": "guest",
+            "resources": [
+                "api6",
+                "server9",
+                "server14"
+            ]
+        },
+        "chloe_long": {
+            "role": "admin",
+            "resources": [
+                "server17",
+                "server19",
+                "db9"
+            ]
+        },
+        "peter_ramirez": {
+            "role": "admin",
+            "resources": [
+                "api1",
+                "db4",
+                "server11",
+                "api8",
+                "server16",
+                "server13",
+                "api10"
+            ]
+        },
+        "amber_jenkins1": {
+            "role": "guest",
+            "resources": [
+                "server5",
+                "server4",
+                "server19"
+            ]
+        },
+        "helen_carter": {
+            "role": "user",
+            "resources": [
+                "db14",
+                "db5",
+                "api6"
+            ]
+        },
+        "victor_bell": {
+            "role": "guest",
+            "resources": []
+        },
+        "nick_gray": {
+            "role": "guest",
+            "resources": [
+                "server3"
+            ]
+        },
+        "penny_price": {
+            "role": "user",
+            "resources": [
+                "server7",
+                "api1"
+            ]
+        },
+        "brian_peterson": {
+            "role": "admin",
+            "resources": [
+                "server12",
+                "server20",
+                "server8",
+                "api2",
+                "db2"
+            ]
+        },
+        "zoe_campbell": {
+            "role": "guest",
+            "resources": [
+                "server10",
+                "db9",
+                "db7"
+            ]
+        },
+        "george_price": {
+            "role": "guest",
+            "resources": [
+                "db4",
+                "db7",
+                "db1"
+            ]
+        },
+        "ulrich_evans": {
+            "role": "user",
+            "resources": [
+                "db4"
+            ]
+        },
+        "george_martinez": {
+            "role": "user",
+            "resources": [
+                "server6",
+                "api5"
+            ]
+        },
+        "peter_howard": {
+            "role": "user",
+            "resources": [
+                "api6",
+                "api5"
+            ]
+        },
+        "liam_young": {
+            "role": "guest",
+            "resources": [
+                "server15"
+            ]
+        },
+        "rick_watson1": {
+            "role": "admin",
+            "resources": [
+                "api5",
+                "api7",
+                "server4",
+                "server20",
+                "server12"
+            ]
+        },
+        "gina_long": {
+            "role": "admin",
+            "resources": [
+                "api7",
+                "server8",
+                "api5",
+                "server13",
+                "db5",
+                "server14",
+                "db7",
+                "server16"
+            ]
+        },
+        "xena_watson": {
+            "role": "user",
+            "resources": [
+                "server3",
+                "server16"
+            ]
+        },
+        "nick_murphy1": {
+            "role": "user",
+            "resources": [
+                "api5",
+                "server5",
+                "api6",
+                "server12"
+            ]
+        },
+        "mia_cook": {
+            "role": "guest",
+            "resources": []
+        },
+        "victor_lee": {
+            "role": "user",
+            "resources": [
+                "db1",
+                "db9",
+                "api2",
+                "db8"
+            ]
+        },
+        "leo_jenkins": {
+            "role": "user",
+            "resources": [
+                "db1",
+                "server16",
+                "server1",
+                "db7"
+            ]
+        },
+        "amber_howard": {
+            "role": "user",
+            "resources": [
+                "db8",
+                "server11"
+            ]
+        },
+        "yasmin_rivera1": {
+            "role": "user",
+            "resources": [
+                "api4"
+            ]
+        },
+        "oliver_allen": {
+            "role": "guest",
+            "resources": []
+        },
+        "penny_clark": {
+            "role": "user",
+            "resources": [
+                "server6",
+                "api5"
+            ]
+        },
+        "chloe_patterson": {
+            "role": "user",
+            "resources": [
+                "server2",
+                "db8",
+                "api7",
+                "api2",
+                "server19"
+            ]
+        },
+        "yasmin_brooks": {
+            "role": "guest",
+            "resources": [
+                "api6"
+            ]
+        },
+        "tina_torres": {
+            "role": "user",
+            "resources": [
+                "server9",
+                "api5",
+                "server10",
+                "api2"
+            ]
+        },
+        "steve_kelly": {
+            "role": "user",
+            "resources": [
+                "db12",
+                "db10",
+                "api2",
+                "db15",
+                "server6"
+            ]
+        },
+        "elliot_patterson": {
+            "role": "user",
+            "resources": [
+                "api9",
+                "db4",
+                "server2",
+                "api2",
+                "db9"
+            ]
+        },
+        "iris_mitchell": {
+            "role": "user",
+            "resources": [
+                "server9",
+                "server14",
+                "db2",
+                "db3",
+                "api7"
+            ]
+        },
+        "uma_cox": {
+            "role": "admin",
+            "resources": [
+                "db7",
+                "server14",
+                "api2",
+                "db15",
+                "db1",
+                "db4",
+                "db9"
+            ]
+        },
+        "nora_smith": {
+            "role": "admin",
+            "resources": [
+                "server9",
+                "db8",
+                "server20",
+                "server2",
+                "server19",
+                "db3"
+            ]
+        },
+        "amber_king": {
+            "role": "user",
+            "resources": [
+                "api10",
+                "db11",
+                "api5",
+                "db13"
+            ]
+        },
+        "irene_ramirez": {
+            "role": "user",
+            "resources": [
+                "server18",
+                "server8",
+                "api5"
+            ]
+        },
+        "quinn_carter": {
+            "role": "guest",
+            "resources": [
+                "db4",
+                "server10"
+            ]
+        },
+        "sarah_walker": {
+            "role": "user",
+            "resources": [
+                "server9",
+                "db7"
+            ]
+        },
+        "liam_sanchez1": {
+            "role": "user",
+            "resources": [
+                "db14",
+                "db8",
+                "db11",
+                "api7"
+            ]
+        },
+        "leo_james": {
+            "role": "guest",
+            "resources": [
+                "api3"
+            ]
+        },
+        "steve_watson": {
+            "role": "user",
+            "resources": [
+                "db9"
+            ]
+        },
+        "jack_martinez": {
+            "role": "admin",
+            "resources": [
+                "api6",
+                "db6",
+                "server3"
+            ]
+        },
+        "daisy_turner": {
+            "role": "user",
+            "resources": [
+                "server9",
+                "api8",
+                "api2"
+            ]
+        },
+        "mia_long": {
+            "role": "user",
+            "resources": [
+                "db15",
+                "api6",
+                "server7",
+                "db10"
+            ]
+        },
+        "tony_murphy": {
+            "role": "guest",
+            "resources": [
+                "server17",
+                "server20"
+            ]
+        },
+        "mike_cox": {
+            "role": "user",
+            "resources": [
+                "server9",
+                "db5",
+                "server11",
+                "db2"
+            ]
+        },
+        "gina_ward1": {
+            "role": "user",
+            "resources": [
+                "server18",
+                "db4"
+            ]
+        },
+        "mia_ward": {
+            "role": "admin",
+            "resources": [
+                "server3",
+                "server6",
+                "server10",
+                "server13"
+            ]
+        },
+        "felix_sanchez": {
+            "role": "guest",
+            "resources": []
+        },
+        "xena_cox": {
+            "role": "guest",
+            "resources": [
+                "server4"
+            ]
+        },
+        "aaron_coleman": {
+            "role": "admin",
+            "resources": [
+                "db13",
+                "db15",
+                "db2",
+                "api4"
+            ]
+        },
+        "victor_cooper1": {
+            "role": "admin",
+            "resources": [
+                "db6",
+                "server10",
+                "server18",
+                "server3",
+                "server2",
+                "db7"
+            ]
+        },
+        "ursula_davis": {
+            "role": "user",
+            "resources": [
+                "server14",
+                "api2"
+            ]
+        },
+        "bob_ward": {
+            "role": "admin",
+            "resources": [
+                "db11",
+                "server10",
+                "db14",
+                "api2",
+                "db6"
+            ]
+        },
+        "olivia_ramirez1": {
+            "role": "guest",
+            "resources": [
+                "db6",
+                "db3",
+                "api2"
+            ]
+        },
+        "nick_taylor1": {
+            "role": "guest",
+            "resources": [
+                "server4",
+                "server9",
+                "server12"
+            ]
+        },
+        "ray_taylor": {
+            "role": "guest",
+            "resources": [
+                "server14",
+                "server7"
+            ]
+        },
+        "kevin_murphy": {
+            "role": "guest",
+            "resources": [
+                "db2",
+                "db6",
+                "api4"
+            ]
+        },
+        "zoe_gray": {
+            "role": "guest",
+            "resources": [
+                "db12"
+            ]
+        },
+        "helen_phillips": {
+            "role": "user",
+            "resources": [
+                "db11"
+            ]
+        },
+        "yasmin_ward": {
+            "role": "user",
+            "resources": [
+                "server12",
+                "api1",
+                "db2",
+                "server10",
+                "server13"
+            ]
+        },
+        "olivia_green": {
+            "role": "admin",
+            "resources": [
+                "server6",
+                "db8",
+                "server11",
+                "server16"
+            ]
+        },
+        "wade_bailey": {
+            "role": "admin",
+            "resources": [
+                "api6",
+                "db5",
+                "api2"
+            ]
+        },
+        "daisy_henderson": {
+            "role": "guest",
+            "resources": [
+                "db4",
+                "api2",
+                "server15"
+            ]
+        },
+        "helen_davis": {
+            "role": "guest",
+            "resources": []
+        },
+        "kevin_cook": {
+            "role": "guest",
+            "resources": []
+        },
+        "eve_walker1": {
+            "role": "user",
+            "resources": [
+                "server14",
+                "server20",
+                "api1",
+                "api8"
+            ]
+        },
+        "diana_campbell": {
+            "role": "user",
+            "resources": [
+                "api7",
+                "server14",
+                "server19",
+                "server9",
+                "api1"
+            ]
+        },
+        "quentin_taylor": {
+            "role": "admin",
+            "resources": [
+                "server17",
+                "db6",
+                "api6",
+                "api7",
+                "db7",
+                "api9",
+                "server1",
+                "server6"
+            ]
+        },
+        "gina_campbell1": {
+            "role": "guest",
+            "resources": [
+                "api8",
+                "server15",
+                "server1"
+            ]
+        },
+        "felix_cook": {
+            "role": "user",
+            "resources": [
+                "db7",
+                "db4"
+            ]
+        },
+        "hank_brooks": {
+            "role": "user",
+            "resources": [
+                "db7",
+                "server7"
+            ]
+        },
+        "wendy_cox": {
+            "role": "guest",
+            "resources": [
+                "server17",
+                "server4",
+                "server8"
+            ]
+        },
+        "leo_wood": {
+            "role": "guest",
+            "resources": [
+                "server15",
+                "server8"
+            ]
+        },
+        "steve_howard": {
+            "role": "guest",
+            "resources": [
+                "server19",
+                "server1",
+                "api2"
+            ]
+        },
+        "nina_king": {
+            "role": "user",
+            "resources": [
+                "db8",
+                "db3",
+                "db1",
+                "api6"
+            ]
+        },
+        "ulrich_long": {
+            "role": "admin",
+            "resources": [
+                "server17",
+                "db13",
+                "server2"
+            ]
+        },
+        "jack_watson": {
+            "role": "user",
+            "resources": [
+                "db13"
+            ]
+        },
+        "rick_davis": {
+            "role": "guest",
+            "resources": [
+                "db7",
+                "api3"
+            ]
+        },
+        "hank_patterson": {
+            "role": "guest",
+            "resources": [
+                "db13",
+                "server20",
+                "server8"
+            ]
+        },
+        "zoe_bailey": {
+            "role": "user",
+            "resources": [
+                "db7",
+                "server15"
+            ]
+        },
+        "paula_hall": {
+            "role": "guest",
+            "resources": [
+                "server13",
+                "server12"
+            ]
+        },
+        "nina_james": {
+            "role": "guest",
+            "resources": [
+                "api3",
+                "server1",
+                "server10"
+            ]
+        },
+        "tina_peterson": {
+            "role": "user",
+            "resources": [
+                "db12",
+                "server17",
+                "server11",
+                "db14",
+                "server7"
+            ]
+        },
+        "felix_rogers": {
+            "role": "guest",
+            "resources": [
+                "server1",
+                "api7"
+            ]
+        },
+        "sophie_turner": {
+            "role": "admin",
+            "resources": [
+                "server4",
+                "server2",
+                "api8"
+            ]
+        },
+        "wendy_robinson": {
+            "role": "user",
+            "resources": [
+                "db5",
+                "db6",
+                "db4",
+                "db7"
+            ]
+        },
+        "xena_campbell": {
+            "role": "guest",
+            "resources": []
+        },
+        "gina_young1": {
+            "role": "user",
+            "resources": [
+                "api10",
+                "db13",
+                "db14",
+                "server17",
+                "db12"
+            ]
+        },
+        "iris_wood": {
+            "role": "guest",
+            "resources": [
+                "server17",
+                "server4",
+                "server8"
+            ]
+        },
+        "brian_rivera": {
+            "role": "guest",
+            "resources": []
+        },
+        "aaron_murphy": {
+            "role": "admin",
+            "resources": [
+                "server9",
+                "db14",
+                "db1",
+                "db8",
+                "db2",
+                "server7",
+                "server6",
+                "server3"
+            ]
+        },
+        "oliver_walker": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "server9",
+                "api3",
+                "server12"
+            ]
+        },
+        "elliot_torres": {
+            "role": "guest",
+            "resources": []
+        },
+        "tony_long": {
+            "role": "guest",
+            "resources": [
+                "server14",
+                "server5",
+                "server1"
+            ]
+        },
+        "rachel_green": {
+            "role": "user",
+            "resources": [
+                "server12"
+            ]
+        },
+        "iris_robinson": {
+            "role": "user",
+            "resources": [
+                "api3",
+                "api10",
+                "server16",
+                "server4",
+                "server9"
+            ]
+        },
+        "peter_king": {
+            "role": "guest",
+            "resources": []
+        },
+        "derek_nelson": {
+            "role": "guest",
+            "resources": [
+                "server4"
+            ]
+        },
+        "xavier_allen": {
+            "role": "user",
+            "resources": [
+                "server6",
+                "db13",
+                "db10"
+            ]
+        },
+        "chloe_young": {
+            "role": "user",
+            "resources": [
+                "server5"
+            ]
+        },
+        "felix_phillips": {
+            "role": "guest",
+            "resources": [
+                "server14",
+                "server3",
+                "server7"
+            ]
+        },
+        "olivia_cooper": {
+            "role": "user",
+            "resources": [
+                "server14",
+                "db2",
+                "api8"
+            ]
+        },
+        "james_henderson": {
+            "role": "guest",
+            "resources": [
+                "server13",
+                "server2",
+                "server11"
+            ]
+        },
+        "vera_richardson": {
+            "role": "user",
+            "resources": [
+                "server1"
+            ]
+        },
+        "tina_morgan": {
+            "role": "guest",
+            "resources": [
+                "api4",
+                "db1",
+                "db6"
+            ]
+        },
+        "george_clark": {
+            "role": "guest",
+            "resources": [
+                "db4",
+                "server4",
+                "db2"
+            ]
+        },
+        "hank_long": {
+            "role": "guest",
+            "resources": []
+        },
+        "julia_sanders": {
+            "role": "user",
+            "resources": [
+                "server18"
+            ]
+        },
+        "hugo_bailey": {
+            "role": "guest",
+            "resources": []
+        },
+        "ray_ross": {
+            "role": "guest",
+            "resources": [
+                "db9"
+            ]
+        },
+        "james_watson": {
+            "role": "user",
+            "resources": [
+                "server11",
+                "db4",
+                "server5",
+                "api8"
+            ]
+        },
+        "diana_bell": {
+            "role": "user",
+            "resources": [
+                "db6",
+                "server16"
+            ]
+        },
+        "ray_patterson": {
+            "role": "user",
+            "resources": [
+                "db10"
+            ]
+        },
+        "zach_walker": {
+            "role": "guest",
+            "resources": [
+                "db5",
+                "db4"
+            ]
+        },
+        "felix_white": {
+            "role": "user",
+            "resources": [
+                "server7",
+                "db1"
+            ]
+        },
+        "wade_jones1": {
+            "role": "user",
+            "resources": [
+                "api6",
+                "db9"
+            ]
+        },
+        "zoe_henderson": {
+            "role": "guest",
+            "resources": [
+                "server11",
+                "db5",
+                "server3"
+            ]
+        },
+        "eve_roberts": {
+            "role": "user",
+            "resources": [
+                "server15",
+                "api10",
+                "server17"
+            ]
+        },
+        "alice_perry": {
+            "role": "user",
+            "resources": [
+                "server17"
+            ]
+        },
+        "rachel_peterson": {
+            "role": "guest",
+            "resources": [
+                "server19",
+                "server9"
+            ]
+        },
+        "sophie_ramirez": {
+            "role": "guest",
+            "resources": [
+                "server8"
+            ]
+        },
+        "mike_allen1": {
+            "role": "admin",
+            "resources": [
+                "server12",
+                "api6",
+                "server1",
+                "server11"
+            ]
+        },
+        "zach_henderson": {
+            "role": "user",
+            "resources": [
+                "api7",
+                "db14"
+            ]
+        },
+        "yasmin_young": {
+            "role": "guest",
+            "resources": []
+        },
+        "ivan_martin": {
+            "role": "user",
+            "resources": [
+                "api2",
+                "server9",
+                "db7",
+                "db1"
+            ]
+        },
+        "rick_martinez1": {
+            "role": "user",
+            "resources": [
+                "api10",
+                "db4",
+                "db13",
+                "api7"
+            ]
+        },
+        "hank_jones": {
+            "role": "guest",
+            "resources": [
+                "db10",
+                "db2"
+            ]
+        },
+        "chloe_allen": {
+            "role": "user",
+            "resources": [
+                "db5"
+            ]
+        },
+        "mike_edwards": {
+            "role": "user",
+            "resources": [
+                "api3",
+                "server4"
+            ]
+        },
+        "karen_campbell": {
+            "role": "guest",
+            "resources": [
+                "server10"
+            ]
+        },
+        "charlie_allen": {
+            "role": "admin",
+            "resources": [
+                "server4",
+                "db4",
+                "server11",
+                "api9"
+            ]
+        },
+        "zach_edwards": {
+            "role": "guest",
+            "resources": [
+                "db5"
+            ]
+        },
+        "eve_parker": {
+            "role": "guest",
+            "resources": [
+                "api4",
+                "api9",
+                "db8"
+            ]
+        },
+        "irene_ross1": {
+            "role": "admin",
+            "resources": [
+                "api4",
+                "db5",
+                "server18"
+            ]
+        },
+        "penny_cooper": {
+            "role": "user",
+            "resources": [
+                "server3",
+                "db9",
+                "server20",
+                "db6",
+                "db5"
+            ]
+        },
+        "yannick_price": {
+            "role": "user",
+            "resources": [
+                "server10",
+                "api7"
+            ]
+        },
+        "yasmin_robinson": {
+            "role": "admin",
+            "resources": [
+                "api2",
+                "api8",
+                "server19",
+                "db13",
+                "server16",
+                "server3",
+                "server13"
+            ]
+        },
+        "tina_long": {
+            "role": "guest",
+            "resources": [
+                "db15",
+                "server20"
+            ]
+        },
+        "brian_martin1": {
+            "role": "admin",
+            "resources": [
+                "server20",
+                "db8",
+                "server7",
+                "db9",
+                "db5",
+                "server4",
+                "server14"
+            ]
+        },
+        "kate_ward": {
+            "role": "user",
+            "resources": [
+                "db1",
+                "server10",
+                "db3",
+                "server16",
+                "server20"
+            ]
+        },
+        "george_henderson": {
+            "role": "admin",
+            "resources": [
+                "server2",
+                "db3",
+                "api10"
+            ]
+        },
+        "tony_campbell": {
+            "role": "user",
+            "resources": [
+                "api8",
+                "api3",
+                "db3"
+            ]
+        },
+        "quentin_turner": {
+            "role": "admin",
+            "resources": [
+                "server19",
+                "server13",
+                "db7",
+                "server9",
+                "db5",
+                "api8"
+            ]
+        },
+        "frank_king2": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "server19"
+            ]
+        },
+        "peter_cooper2": {
+            "role": "admin",
+            "resources": [
+                "server12",
+                "api6",
+                "server3",
+                "server7",
+                "db5"
+            ]
+        },
+        "nina_morgan": {
+            "role": "guest",
+            "resources": []
+        },
+        "diana_scott": {
+            "role": "user",
+            "resources": [
+                "db6",
+                "server15"
+            ]
+        },
+        "ivan_reed": {
+            "role": "user",
+            "resources": [
+                "server7",
+                "api1"
+            ]
+        },
+        "lisa_jones": {
+            "role": "guest",
+            "resources": []
+        },
+        "oliver_morgan": {
+            "role": "user",
+            "resources": [
+                "server5",
+                "db5",
+                "db11"
+            ]
+        },
+        "kate_lee": {
+            "role": "guest",
+            "resources": [
+                "server15",
+                "server3"
+            ]
+        },
+        "yannick_robinson": {
+            "role": "user",
+            "resources": [
+                "api5",
+                "server19",
+                "api10"
+            ]
+        },
+        "kevin_edwards": {
+            "role": "guest",
+            "resources": []
+        },
+        "irene_edwards": {
+            "role": "user",
+            "resources": [
+                "server7",
+                "server2"
+            ]
+        },
+        "vera_reed": {
+            "role": "user",
+            "resources": [
+                "api1",
+                "server9",
+                "server20",
+                "db7",
+                "api10"
+            ]
+        },
+        "aaron_carter": {
+            "role": "user",
+            "resources": [
+                "db8",
+                "db15",
+                "api1",
+                "api3",
+                "db11"
+            ]
+        },
+        "uma_bailey": {
+            "role": "user",
+            "resources": [
+                "api3",
+                "db12",
+                "server3"
+            ]
+        },
+        "grace_long": {
+            "role": "user",
+            "resources": [
+                "server2",
+                "api10",
+                "api9"
+            ]
+        },
+        "nina_watson": {
+            "role": "guest",
+            "resources": [
+                "db15"
+            ]
+        },
+        "victor_sanchez": {
+            "role": "user",
+            "resources": [
+                "api5"
+            ]
+        },
+        "chloe_kelly": {
+            "role": "user",
+            "resources": [
+                "api3",
+                "db9",
+                "db2",
+                "db3",
+                "db13"
+            ]
+        },
+        "karen_richardson": {
+            "role": "user",
+            "resources": [
+                "server14",
+                "api9",
+                "db2"
+            ]
+        },
+        "elliot_brown": {
+            "role": "guest",
+            "resources": [
+                "db9",
+                "server4",
+                "db14"
+            ]
+        },
+        "helen_phillips1": {
+            "role": "guest",
+            "resources": [
+                "server4",
+                "server17"
+            ]
+        },
+        "felix_rivera": {
+            "role": "guest",
+            "resources": []
+        },
+        "zach_bailey": {
+            "role": "guest",
+            "resources": []
+        },
+        "irene_rogers": {
+            "role": "user",
+            "resources": [
+                "server8",
+                "db1"
+            ]
+        },
+        "kate_bailey": {
+            "role": "user",
+            "resources": [
+                "server19",
+                "api3"
+            ]
+        },
+        "elliot_campbell": {
+            "role": "user",
+            "resources": [
+                "server7"
+            ]
+        },
+        "leo_thompson": {
+            "role": "guest",
+            "resources": [
+                "db13"
+            ]
+        },
+        "yasmin_thompson": {
+            "role": "user",
+            "resources": [
+                "server4",
+                "server13",
+                "server10",
+                "server16"
+            ]
+        },
+        "ivan_henderson": {
+            "role": "user",
+            "resources": [
+                "db12",
+                "server7",
+                "db5",
+                "api3"
+            ]
+        },
+        "ivan_smith1": {
+            "role": "user",
+            "resources": [
+                "server11",
+                "api2",
+                "api3",
+                "db15"
+            ]
+        },
+        "quinn_king": {
+            "role": "user",
+            "resources": [
+                "server15",
+                "db6",
+                "db7"
+            ]
+        },
+        "hank_morris": {
+            "role": "admin",
+            "resources": [
+                "db7",
+                "server8",
+                "server14",
+                "server16",
+                "api1",
+                "server4",
+                "db9",
+                "server11"
+            ]
+        },
+        "travis_barnes": {
+            "role": "user",
+            "resources": [
+                "db9",
+                "db1",
+                "db8",
+                "db15"
+            ]
+        },
+        "oscar_martinez": {
+            "role": "user",
+            "resources": [
+                "api2",
+                "server5",
+                "server18",
+                "server6",
+                "server9"
+            ]
+        },
+        "sarah_barnes": {
+            "role": "user",
+            "resources": [
+                "api4",
+                "server10",
+                "db4",
+                "api1",
+                "server17"
+            ]
+        },
+        "steve_campbell": {
+            "role": "admin",
+            "resources": [
+                "server9",
+                "server18",
+                "db2"
+            ]
+        },
+        "julia_powell1": {
+            "role": "user",
+            "resources": [
+                "db11",
+                "db5"
+            ]
+        },
+        "nora_thompson": {
+            "role": "guest",
+            "resources": [
+                "db3",
+                "server4",
+                "db9"
+            ]
+        },
+        "mike_sanchez": {
+            "role": "user",
+            "resources": [
+                "server17",
+                "server10",
+                "db7"
+            ]
+        },
+        "sophie_torres": {
+            "role": "guest",
+            "resources": []
+        },
+        "nick_jones": {
+            "role": "user",
+            "resources": [
+                "api3",
+                "db15",
+                "api2",
+                "server3"
+            ]
+        },
+        "nora_torres": {
+            "role": "admin",
+            "resources": [
+                "db9",
+                "server17",
+                "server1",
+                "db1",
+                "server6",
+                "api8"
+            ]
+        },
+        "fiona_powell": {
+            "role": "guest",
+            "resources": []
+        },
+        "rachel_edwards2": {
+            "role": "admin",
+            "resources": [
+                "server14",
+                "db10",
+                "db11",
+                "db6"
+            ]
+        },
+        "travis_hughes": {
+            "role": "guest",
+            "resources": [
+                "server20"
+            ]
+        },
+        "travis_rogers": {
+            "role": "user",
+            "resources": [
+                "server18"
+            ]
+        },
+        "mia_phillips": {
+            "role": "user",
+            "resources": [
+                "server16",
+                "api10",
+                "db11",
+                "db12"
+            ]
+        },
+        "mia_torres": {
+            "role": "guest",
+            "resources": [
+                "db13",
+                "server7"
+            ]
+        },
+        "julia_robinson": {
+            "role": "user",
+            "resources": [
+                "api7",
+                "server3",
+                "db14",
+                "server1"
+            ]
+        },
+        "ivan_hughes": {
+            "role": "user",
+            "resources": [
+                "api8"
+            ]
+        },
+        "derek_hall": {
+            "role": "admin",
+            "resources": [
+                "server2",
+                "api1",
+                "db1",
+                "db9"
+            ]
+        },
+        "zoe_barnes": {
+            "role": "user",
+            "resources": [
+                "db9",
+                "server12",
+                "db15"
+            ]
+        },
+        "bob_robinson": {
+            "role": "admin",
+            "resources": [
+                "db14",
+                "db9",
+                "server15",
+                "db7",
+                "server19"
+            ]
+        },
+        "quinn_carter1": {
+            "role": "guest",
+            "resources": [
+                "server7",
+                "api6",
+                "db6"
+            ]
+        },
+        "helen_wilson": {
+            "role": "user",
+            "resources": [
+                "server5"
+            ]
+        },
+        "iris_murphy": {
+            "role": "guest",
+            "resources": [
+                "api9",
+                "server9",
+                "server8"
+            ]
+        },
+        "peter_phillips": {
+            "role": "guest",
+            "resources": [
+                "server19",
+                "db12"
+            ]
+        },
+        "oscar_bell": {
+            "role": "user",
+            "resources": [
+                "db15",
+                "server1",
+                "api7",
+                "server18"
+            ]
+        },
+        "felix_phillips1": {
+            "role": "user",
+            "resources": [
+                "db8",
+                "db5"
+            ]
+        },
+        "paula_murphy1": {
+            "role": "user",
+            "resources": [
+                "server12",
+                "api6",
+                "server7"
+            ]
+        },
+        "aaron_perry": {
+            "role": "user",
+            "resources": [
+                "db10",
+                "api7",
+                "server19",
+                "db15",
+                "server13"
+            ]
+        },
+        "ursula_ramirez": {
+            "role": "user",
+            "resources": [
+                "server18",
+                "db14"
+            ]
+        },
+        "gina_young2": {
+            "role": "user",
+            "resources": [
+                "server7",
+                "server2",
+                "api3"
+            ]
+        },
+        "ulrich_morgan": {
+            "role": "user",
+            "resources": [
+                "server17",
+                "server5",
+                "api6"
+            ]
+        },
+        "quinn_cooper": {
+            "role": "admin",
+            "resources": [
+                "server6",
+                "server3",
+                "server2",
+                "server17"
+            ]
+        },
+        "julia_price": {
+            "role": "user",
+            "resources": [
+                "api7"
+            ]
+        },
+        "xavier_gray": {
+            "role": "user",
+            "resources": [
+                "server10"
+            ]
+        },
+        "oscar_campbell": {
+            "role": "user",
+            "resources": [
+                "db1"
+            ]
+        },
+        "karen_price": {
+            "role": "user",
+            "resources": [
+                "db1",
+                "api9",
+                "server12",
+                "server6",
+                "db8"
+            ]
+        },
+        "sarah_carter": {
+            "role": "guest",
+            "resources": [
+                "api5",
+                "db8",
+                "api9"
+            ]
+        },
+        "hank_cook": {
+            "role": "user",
+            "resources": [
+                "server3"
+            ]
+        },
+        "zach_henderson1": {
+            "role": "user",
+            "resources": [
+                "server6",
+                "server16",
+                "server8"
+            ]
+        },
+        "yasmin_taylor": {
+            "role": "guest",
+            "resources": []
+        },
+        "hugo_bell1": {
+            "role": "user",
+            "resources": [
+                "server14",
+                "api10",
+                "db1"
+            ]
+        },
+        "iris_jenkins1": {
+            "role": "guest",
+            "resources": [
+                "db10",
+                "server5",
+                "db15"
+            ]
+        },
+        "kevin_young": {
+            "role": "guest",
+            "resources": []
+        },
+        "felix_watson": {
+            "role": "admin",
+            "resources": [
+                "server15",
+                "db4",
+                "api2",
+                "api9",
+                "server8"
+            ]
+        },
+        "xavier_wood": {
+            "role": "user",
+            "resources": [
+                "server18",
+                "db13"
+            ]
+        },
+        "frank_barnes": {
+            "role": "user",
+            "resources": [
+                "db9",
+                "server5",
+                "api3"
+            ]
+        },
+        "leo_long": {
+            "role": "user",
+            "resources": [
+                "server12",
+                "server16",
+                "db6"
+            ]
+        },
+        "eve_bailey": {
+            "role": "user",
+            "resources": [
+                "db2",
+                "server20"
+            ]
+        },
+        "elena_baker": {
+            "role": "admin",
+            "resources": [
+                "db9",
+                "db7",
+                "server1",
+                "api7",
+                "api6",
+                "server3",
+                "server10",
+                "db1"
+            ]
+        },
+        "yannick_patterson": {
+            "role": "user",
+            "resources": [
+                "server5"
+            ]
+        },
+        "kate_wilson": {
+            "role": "admin",
+            "resources": [
+                "server7",
+                "server18",
+                "server3"
+            ]
+        },
+        "penny_davis": {
+            "role": "admin",
+            "resources": [
+                "db7",
+                "server6",
+                "db3",
+                "server1",
+                "server2"
+            ]
+        },
+        "zach_jones": {
+            "role": "user",
+            "resources": [
+                "db11"
+            ]
+        },
+        "grace_king": {
+            "role": "user",
+            "resources": [
+                "api9",
+                "server7"
+            ]
+        },
+        "sophie_patterson": {
+            "role": "user",
+            "resources": [
+                "db10",
+                "api9",
+                "db14",
+                "server18",
+                "server15"
+            ]
+        },
+        "charlie_jenkins1": {
+            "role": "user",
+            "resources": [
+                "api9",
+                "db11",
+                "db8",
+                "api7"
+            ]
+        },
+        "ulrich_stewart": {
+            "role": "guest",
+            "resources": [
+                "api8",
+                "api7"
+            ]
+        },
+        "charlie_garcia": {
+            "role": "guest",
+            "resources": [
+                "api4",
+                "api1",
+                "server17"
+            ]
+        },
+        "tina_jenkins": {
+            "role": "admin",
+            "resources": [
+                "server20",
+                "server19",
+                "server5",
+                "server14"
+            ]
+        },
+        "paula_ross": {
+            "role": "user",
+            "resources": [
+                "api6",
+                "server9",
+                "server15",
+                "api7",
+                "server4"
+            ]
+        },
+        "kate_mitchell": {
+            "role": "user",
+            "resources": [
+                "db14",
+                "server14"
+            ]
+        },
+        "ivan_rivera": {
+            "role": "admin",
+            "resources": [
+                "db11",
+                "server5",
+                "db2",
+                "server6"
+            ]
+        },
+        "frank_robinson": {
+            "role": "user",
+            "resources": [
+                "api4",
+                "server10"
+            ]
+        },
+        "karen_thompson1": {
+            "role": "guest",
+            "resources": [
+                "db10",
+                "server8",
+                "server9"
+            ]
+        },
+        "yasmin_rivera2": {
+            "role": "user",
+            "resources": [
+                "server15",
+                "db1",
+                "api2",
+                "server6",
+                "server11"
+            ]
+        },
+        "yasmin_mitchell": {
+            "role": "user",
+            "resources": [
+                "server10"
+            ]
+        },
+        "gina_jenkins": {
+            "role": "user",
+            "resources": [
+                "db6",
+                "db5",
+                "api6"
+            ]
+        },
+        "wendy_perry": {
+            "role": "guest",
+            "resources": [
+                "server3",
+                "api2",
+                "api1"
+            ]
+        },
+        "julia_scott": {
+            "role": "guest",
+            "resources": [
+                "db11",
+                "api8"
+            ]
+        },
+        "jack_ramirez": {
+            "role": "user",
+            "resources": [
+                "db5"
+            ]
+        },
+        "julia_carter": {
+            "role": "user",
+            "resources": [
+                "server3"
+            ]
+        },
+        "zoe_green": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "server20",
+                "db12",
+                "api8"
+            ]
+        },
+        "victor_king": {
+            "role": "admin",
+            "resources": [
+                "server16",
+                "server3",
+                "api6",
+                "server8"
+            ]
+        },
+        "charlie_powell": {
+            "role": "guest",
+            "resources": []
+        },
+        "kevin_evans": {
+            "role": "guest",
+            "resources": []
+        },
+        "tina_thompson": {
+            "role": "user",
+            "resources": [
+                "db8",
+                "api6",
+                "db6",
+                "server7",
+                "server3"
+            ]
+        },
+        "xena_rivera": {
+            "role": "admin",
+            "resources": [
+                "server19",
+                "api9",
+                "server18",
+                "server15",
+                "db11",
+                "db6"
+            ]
+        },
+        "kate_turner": {
+            "role": "guest",
+            "resources": [
+                "api8",
+                "server13"
+            ]
+        },
+        "mia_rivera": {
+            "role": "user",
+            "resources": [
+                "server12",
+                "api2",
+                "db8",
+                "db2"
+            ]
+        },
+        "sophie_thompson1": {
+            "role": "guest",
+            "resources": [
+                "server8",
+                "db8"
+            ]
+        },
+        "olivia_long": {
+            "role": "user",
+            "resources": [
+                "server5"
+            ]
+        },
+        "mike_bell": {
+            "role": "user",
+            "resources": [
+                "server20",
+                "db10",
+                "db5",
+                "server19",
+                "db12"
+            ]
+        },
+        "helen_gray": {
+            "role": "user",
+            "resources": [
+                "api1",
+                "server6",
+                "server13"
+            ]
+        },
+        "rick_henderson2": {
+            "role": "guest",
+            "resources": [
+                "db14",
+                "api2"
+            ]
+        },
+        "amber_allen": {
+            "role": "guest",
+            "resources": [
+                "api1",
+                "server10",
+                "api10"
+            ]
+        },
+        "charlie_collins": {
+            "role": "user",
+            "resources": [
+                "server4"
+            ]
+        },
+        "brian_morris": {
+            "role": "admin",
+            "resources": [
+                "api2",
+                "server5",
+                "server18"
+            ]
+        },
+        "calvin_bell": {
+            "role": "user",
+            "resources": [
+                "server4",
+                "db9",
+                "db11",
+                "db5",
+                "server18"
+            ]
+        },
+        "elena_parker": {
+            "role": "user",
+            "resources": [
+                "server14",
+                "server16",
+                "db2",
+                "server17"
+            ]
+        },
+        "fiona_long1": {
+            "role": "user",
+            "resources": [
+                "db14",
+                "db15",
+                "db12",
+                "api2"
+            ]
+        },
+        "elena_green": {
+            "role": "user",
+            "resources": [
+                "db3",
+                "server20",
+                "server8"
+            ]
+        },
+        "nina_murphy": {
+            "role": "admin",
+            "resources": [
+                "server2",
+                "server17",
+                "db14"
+            ]
+        },
+        "penny_barnes": {
+            "role": "user",
+            "resources": [
+                "server20",
+                "db8",
+                "server9"
+            ]
+        },
+        "wendy_collins": {
+            "role": "admin",
+            "resources": [
+                "server3",
+                "db4",
+                "server10",
+                "db12",
+                "db11",
+                "server17",
+                "server19",
+                "db10"
+            ]
+        },
+        "elena_robinson": {
+            "role": "guest",
+            "resources": [
+                "api9",
+                "db8"
+            ]
+        },
+        "kevin_roberts": {
+            "role": "user",
+            "resources": [
+                "server13",
+                "db7",
+                "server1",
+                "api2"
+            ]
+        },
+        "kevin_cook1": {
+            "role": "user",
+            "resources": [
+                "db11",
+                "server5"
+            ]
+        },
+        "hank_price": {
+            "role": "guest",
+            "resources": [
+                "server3",
+                "db5"
+            ]
+        },
+        "julia_walker": {
+            "role": "guest",
+            "resources": [
+                "db3",
+                "server7",
+                "server20"
+            ]
+        },
+        "frank_watson": {
+            "role": "guest",
+            "resources": [
+                "db2"
+            ]
+        },
+        "ray_thompson": {
+            "role": "user",
+            "resources": [
+                "api4",
+                "server2",
+                "server13"
+            ]
+        },
+        "leo_sanchez": {
+            "role": "guest",
+            "resources": [
+                "db11",
+                "db4",
+                "db3"
+            ]
+        },
+        "yannick_james": {
+            "role": "guest",
+            "resources": [
+                "api9",
+                "server3",
+                "db5"
+            ]
+        },
+        "brian_bailey1": {
+            "role": "guest",
+            "resources": [
+                "db11",
+                "db5",
+                "api7"
+            ]
+        },
+        "mia_phillips1": {
+            "role": "user",
+            "resources": [
+                "server12"
+            ]
+        },
+        "irene_walker1": {
+            "role": "user",
+            "resources": [
+                "server11",
+                "db8"
+            ]
+        },
+        "bob_bell": {
+            "role": "user",
+            "resources": [
+                "api8",
+                "db1"
+            ]
+        },
+        "sophie_hall": {
+            "role": "user",
+            "resources": [
+                "db11"
+            ]
+        },
+        "eve_brooks": {
+            "role": "user",
+            "resources": [
+                "api5"
+            ]
+        },
+        "tina_taylor": {
+            "role": "user",
+            "resources": [
+                "server18",
+                "server9"
+            ]
+        },
+        "diana_jones": {
+            "role": "admin",
+            "resources": [
+                "api9",
+                "api3",
+                "db5",
+                "db15"
+            ]
+        },
+        "elliot_cook": {
+            "role": "user",
+            "resources": [
+                "server11",
+                "api8",
+                "api9"
+            ]
+        },
+        "yannick_walker": {
+            "role": "admin",
+            "resources": [
+                "db9",
+                "server9",
+                "api6",
+                "server15",
+                "db8"
+            ]
+        },
+        "ivan_young": {
+            "role": "user",
+            "resources": [
+                "db6",
+                "server8",
+                "server3",
+                "server20"
+            ]
+        },
+        "sarah_morris": {
+            "role": "admin",
+            "resources": [
+                "server4",
+                "server14",
+                "db11",
+                "db6",
+                "server1",
+                "server17"
+            ]
+        },
+        "rick_long": {
+            "role": "user",
+            "resources": [
+                "db11",
+                "server3",
+                "db5",
+                "server10"
+            ]
+        },
+        "elena_ward1": {
+            "role": "user",
+            "resources": [
+                "api9",
+                "db5"
+            ]
+        }
+    }
+}

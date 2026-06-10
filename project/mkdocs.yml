@@ -1,0 +1,40 @@
+site_name: Система управления пользователями и доступом
+site_description: Лабораторная работа — Анализатор прав доступа (Вариант 6)
+site_author: Ваш Имя / Никнейм
+
+theme:
+  name: material
+  palette:
+    # Настройка приятной темной/светлой темы
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.expand
+    - toc.integrate
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            # Настройки отображения кода: показывать типы, пути и исходный код
+            show_root_heading: true
+            show_source: true
+            heading_level: 2
+
+nav:
+  - Главная: index.md
+  - Документация API: api.md
