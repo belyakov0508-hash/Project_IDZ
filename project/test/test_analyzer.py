@@ -20,9 +20,9 @@ class TestAccessAnalyzer(unittest.TestCase):
         self.test_data = {
             "alice": {"role": "admin", "resources": ["server1", "db1", "api_v1"]},
             "bob": {"role": "user", "resources": ["server1", "db2"]},
-            "charlie": {"role": "user", "resources": ["server1", "db1", "api_v1"]},  # Дубликат прав Элис
-            "eva": {"role": "guest", "resources": []},  # Нулевой доступ
-            "jack": {"role": "user", "resources": ["db2"]}  # Для префиксов и топ
+            "charlie": {"role": "user", "resources": ["server1", "db1", "api_v1"]},
+            "eva": {"role": "guest", "resources": []},
+            "jack": {"role": "user", "resources": ["db2"]}
         }
 
         # Пути к временным файлам для тестов
@@ -48,10 +48,6 @@ class TestAccessAnalyzer(unittest.TestCase):
                      self.output_report_path, self.output_state_path]:
             if os.path.exists(path):
                 os.remove(path)
-
-    # =========================================================================
-    # ПОЗИТИВНЫЕ СЦЕНАРИИ (Нормальные входные данные)
-    # =========================================================================
 
     def test_load_users_from_generator_success(self):
         """Позитивный тест: успешная загрузка данных через генератор."""
@@ -140,9 +136,6 @@ class TestAccessAnalyzer(unittest.TestCase):
         self.assertIn("results", report)
         self.assertEqual(report["meta"]["total_users_analyzed"], 5)
 
-    # =========================================================================
-    # НЕГАТИВНЫЕ СЦЕНАРИИ (Ошибки, пустые и граничные значения)
-    # =========================================================================
 
     def test_read_non_existent_file(self):
         """Негативный тест: попытка чтения отсутствующего файла."""

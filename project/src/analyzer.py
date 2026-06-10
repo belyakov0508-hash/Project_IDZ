@@ -184,10 +184,7 @@ class AccessAnalyzer:
             list[str]: Список имён пользователей без назначенных ресурсов.
                 Если таких нет — пустой список.
         """
-        zero_users = [
-            username for username, info in self._users_data.items()
-            if not info.get("resources")
-        ]
+        zero_users = [username for username, info in self._users_data.items() if not info.get("resources")]
         return zero_users
 
     def find_duplicate_permissions(self) -> Dict[str, List[str]]:
@@ -209,11 +206,7 @@ class AccessAnalyzer:
         for username, info in self._users_data.items():
             resources_key = frozenset(info.get("resources", []))
             permissions_map[resources_key].append(username)
-        duplicates = {
-            ", ".join(sorted(list(res_set))): users
-            for res_set, users in permissions_map.items()
-            if len(users) > 1
-        }
+        duplicates = {", ".join(sorted(list(res_set))): users for res_set, users in permissions_map.items() if len(users) > 1}
         return duplicates
 
     def count_users_by_resource_prefix(self, prefix: str) -> int:
@@ -232,9 +225,7 @@ class AccessAnalyzer:
         """
         count = 0
         for user_info in self._users_data.values():
-            has_prefix_access = any(
-                res.startswith(prefix) for res in user_info.get("resources", [])
-            )
+            has_prefix_access = any(res.startswith(prefix) for res in user_info.get("resources", []))
             if has_prefix_access:
                 count += 1
         return count
@@ -253,10 +244,7 @@ class AccessAnalyzer:
             dict_keys(['all_available_resources', 'users_data'])
         """
         logger.debug("Экспорт состояния объекта в dict.")
-        return {
-            "all_available_resources": self._all_available_resources,
-            "users_data": self._users_data
-        }
+        return {"all_available_resources": self._all_available_resources, "users_data": self._users_data}
 
     def from_dict(self, state_dict: Dict[str, Any]) -> None:
         """Восстанавливает состояние объекта из словаря.
