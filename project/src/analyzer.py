@@ -31,7 +31,7 @@ class AccessAnalyzer:
         >>> print(analyzer.find_top_n_resources(n=3))
     """
 
-    def __init__(self, all_available_resources=None) -> None:
+    def __init__(self, file_path: str = None, all_available_resources=None) -> None:
         """Инициализирует анализатор.
 
         Args:
@@ -39,14 +39,21 @@ class AccessAnalyzer:
                 ресурсов системы. Используется в методе find_unused_resources.
                 По умолчанию — пустой список.
         """
-        self._users_data = {}
+        self._file_path = file_path
         self._all_available_resources = all_available_resources or []
         logger.info("Инициализирован объект AccessAnalyzer.")
 
     @property
-    def users_data(self):
+    def file_path(self):
         """dict: Словарь загруженных пользователей (только для чтения)."""
-        return self._users_data
+        return self._file_path
+
+    @file_path.setter
+    def file_path(self, path):
+        if not isinstance(path, str):
+            raise ValueError("Ресурсы должны быть переданы в виде списка строк.")
+        self._file_path = path
+        logger.debug(f"Обновлен путь к файлу: {path}.")
 
     @property
     def all_available_resources(self):
@@ -95,31 +102,13 @@ class AccessAnalyzer:
             with open(file_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 for username, info in data.items():
-                    yield {username: info}
+                    yield username, info
         except FileNotFoundError:
             logger.error(f"Файл не найден: {file_path}")
             raise
         except json.JSONDecodeError:
             logger.error(f"Файл поврежден или имеет неверный формат JSON: {file_path}")
             raise
-
-    def load_users_from_generator(self, file_path: str) -> None:
-        """Загружает данные пользователей в память через генератор.
-
-        Очищает текущий словарь пользователей и заполняет его заново,
-        используя read_data_generator для экономии памяти при чтении.
-
-        Args:
-            file_path (str): Путь к JSON-файлу с данными пользователей.
-
-        Raises:
-            FileNotFoundError: Если файл не найден.
-            json.JSONDecodeError: Если JSON повреждён.
-        """
-        self._users_data.clear()
-        for user_packet in self.read_data_generator(file_path):
-            self._users_data.update(user_packet)
-        logger.info(f"Успешно загружено {len(self._users_data)} пользователей в память для анализа.")
 
     def find_top_n_resources(self, n: int = 5) -> List[tuple]:
         """Находит топ-N самых популярных ресурсов по количеству пользователей.
@@ -137,98 +126,98 @@ class AccessAnalyzer:
         """
         logger.debug(f"Запрос топ-{n} популярных ресурсов.")
         resource_counter = Counter()
-        for user_info in self._users_data.values():
-            resource_counter.update(user_info.get("resources", []))
+        for _, info in self.read_data_generator(self.file_path):
+            resource_counter.update(info.get("resources", []))
         return resource_counter.most_common(n)
 
-    def find_unused_resources(self) -> List[str]:
-        """Находит ресурсы, к которым ни один пользователь не имеет доступа.
-
-        Сравнивает эталонный список all_available_resources с фактически
-        используемыми ресурсами в загруженных данных.
-
-        Returns:
-            list[str]: Список ресурсов из all_available_resources, которые
-                не встречаются ни у одного пользователя.
-                Если all_available_resources не задан — возвращает пустой список.
-        """
-        logger.debug("Поиск неиспользуемых ресурсов.")
-        used_resources = set()
-        for user_info in self._users_data.values():
-            used_resources.update(user_info.get("resources", []))
-        unused = [res for res in self._all_available_resources if res not in used_resources]
-        return unused
-
-    def calculate_average_resources_per_user(self) -> float:
-        """Вычисляет среднее количество ресурсов на одного пользователя.
-
-        Returns:
-            float: Среднее количество ресурсов, округлённое до 2 знаков.
-                Возвращает ``0.0``, если база пользователей пуста.
-
-        Example:
-            >>> analyzer.calculate_average_resources_per_user()
-            2.35
-        """
-        if not self._users_data:
-            logger.warning("Расчет среднего количества ресурсов вызван для пустой базы пользователей.")
-            return 0.0
-        total_resources = sum(len(user_info.get("resources", [])) for user_info in self._users_data.values())
-        avg = total_resources / len(self._users_data)
-        return round(avg, 2)
-
-    def find_users_with_zero_access(self) -> List[str]:
-        """Находит пользователей, у которых список ресурсов пуст.
-
-        Returns:
-            list[str]: Список имён пользователей без назначенных ресурсов.
-                Если таких нет — пустой список.
-        """
-        zero_users = [username for username, info in self._users_data.items() if not info.get("resources")]
-        return zero_users
-
-    def find_duplicate_permissions(self) -> Dict[str, List[str]]:
-        """Находит группы пользователей с одинаковыми наборами ресурсов.
-
-        Сравнение ведётся по frozenset ресурсов, поэтому порядок элементов
-        в списке ресурсов не важен.
-
-        Returns:
-            dict: Словарь, где ключ — строка с именами ресурсов через запятую
-                (отсортированными), значение — список пользователей, у которых
-                этот набор совпадает. Возвращаются только группы из 2+ человек.
-
-        Example:
-            >>> analyzer.find_duplicate_permissions()
-            {'api_v1, db1, server1': ['alice', 'charlie']}
-        """
-        permissions_map = defaultdict(list)
-        for username, info in self._users_data.items():
-            resources_key = frozenset(info.get("resources", []))
-            permissions_map[resources_key].append(username)
-        duplicates = {", ".join(sorted(list(res_set))): users for res_set, users in permissions_map.items() if len(users) > 1}
-        return duplicates
-
-    def count_users_by_resource_prefix(self, prefix: str) -> int:
-        """Подсчитывает количество пользователей, имеющих доступ хотя бы к одному ресурсу с заданным префиксом.
-
-        Args:
-            prefix (str): Префикс для фильтрации ресурсов (например, ``"server"`` или ``"db"``).
-
-        Returns:
-            int: Число пользователей, у которых есть хотя бы один ресурс,
-                начинающийся с указанного префикса.
-
-        Example:
-            >>> analyzer.count_users_by_resource_prefix("server")
-            57
-        """
-        count = 0
-        for user_info in self._users_data.values():
-            has_prefix_access = any(res.startswith(prefix) for res in user_info.get("resources", []))
-            if has_prefix_access:
-                count += 1
-        return count
+    # def find_unused_resources(self) -> List[str]:
+    #     """Находит ресурсы, к которым ни один пользователь не имеет доступа.
+    #
+    #     Сравнивает эталонный список all_available_resources с фактически
+    #     используемыми ресурсами в загруженных данных.
+    #
+    #     Returns:
+    #         list[str]: Список ресурсов из all_available_resources, которые
+    #             не встречаются ни у одного пользователя.
+    #             Если all_available_resources не задан — возвращает пустой список.
+    #     """
+    #     logger.debug("Поиск неиспользуемых ресурсов.")
+    #     used_resources = set()
+    #     for user_info in self._users_data.values():
+    #         used_resources.update(user_info.get("resources", []))
+    #     unused = [res for res in self._all_available_resources if res not in used_resources]
+    #     return unused
+    #
+    # def calculate_average_resources_per_user(self) -> float:
+    #     """Вычисляет среднее количество ресурсов на одного пользователя.
+    #
+    #     Returns:
+    #         float: Среднее количество ресурсов, округлённое до 2 знаков.
+    #             Возвращает ``0.0``, если база пользователей пуста.
+    #
+    #     Example:
+    #         >>> analyzer.calculate_average_resources_per_user()
+    #         2.35
+    #     """
+    #     if not self._users_data:
+    #         logger.warning("Расчет среднего количества ресурсов вызван для пустой базы пользователей.")
+    #         return 0.0
+    #     total_resources = sum(len(user_info.get("resources", [])) for user_info in self._users_data.values())
+    #     avg = total_resources / len(self._users_data)
+    #     return round(avg, 2)
+    #
+    # def find_users_with_zero_access(self) -> List[str]:
+    #     """Находит пользователей, у которых список ресурсов пуст.
+    #
+    #     Returns:
+    #         list[str]: Список имён пользователей без назначенных ресурсов.
+    #             Если таких нет — пустой список.
+    #     """
+    #     zero_users = [username for username, info in self._users_data.items() if not info.get("resources")]
+    #     return zero_users
+    #
+    # def find_duplicate_permissions(self) -> Dict[str, List[str]]:
+    #     """Находит группы пользователей с одинаковыми наборами ресурсов.
+    #
+    #     Сравнение ведётся по frozenset ресурсов, поэтому порядок элементов
+    #     в списке ресурсов не важен.
+    #
+    #     Returns:
+    #         dict: Словарь, где ключ — строка с именами ресурсов через запятую
+    #             (отсортированными), значение — список пользователей, у которых
+    #             этот набор совпадает. Возвращаются только группы из 2+ человек.
+    #
+    #     Example:
+    #         >>> analyzer.find_duplicate_permissions()
+    #         {'api_v1, db1, server1': ['alice', 'charlie']}
+    #     """
+    #     permissions_map = defaultdict(list)
+    #     for username, info in self._users_data.items():
+    #         resources_key = frozenset(info.get("resources", []))
+    #         permissions_map[resources_key].append(username)
+    #     duplicates = {", ".join(sorted(list(res_set))): users for res_set, users in permissions_map.items() if len(users) > 1}
+    #     return duplicates
+    #
+    # def count_users_by_resource_prefix(self, prefix: str) -> int:
+    #     """Подсчитывает количество пользователей, имеющих доступ хотя бы к одному ресурсу с заданным префиксом.
+    #
+    #     Args:
+    #         prefix (str): Префикс для фильтрации ресурсов (например, ``"server"`` или ``"db"``).
+    #
+    #     Returns:
+    #         int: Число пользователей, у которых есть хотя бы один ресурс,
+    #             начинающийся с указанного префикса.
+    #
+    #     Example:
+    #         >>> analyzer.count_users_by_resource_prefix("server")
+    #         57
+    #     """
+    #     count = 0
+    #     for user_info in self._users_data.values():
+    #         has_prefix_access = any(res.startswith(prefix) for res in user_info.get("resources", []))
+    #         if has_prefix_access:
+    #             count += 1
+    #     return count
 
     def to_dict(self) -> Dict[str, Any]:
         """Сериализует полное состояние объекта в словарь.
@@ -244,7 +233,7 @@ class AccessAnalyzer:
             dict_keys(['all_available_resources', 'users_data'])
         """
         logger.debug("Экспорт состояния объекта в dict.")
-        return {"all_available_resources": self._all_available_resources, "users_data": self._users_data}
+        return {"file_path": self._file_path, "all_available_resources": self._all_available_resources}
 
     def from_dict(self, state_dict: Dict[str, Any]) -> None:
         """Восстанавливает состояние объекта из словаря.
@@ -259,51 +248,41 @@ class AccessAnalyzer:
         if not isinstance(state_dict, dict):
             logger.error("Неверный формат данных для восстановления состояния.")
             raise ValueError("Данные должны быть словарем.")
+        self._file_path = state_dict.get("file_path")
         self._all_available_resources = state_dict.get("all_available_resources", [])
-        self._users_data.clear()
-        self._users_data.update(state_dict.get("users_data", {}))
         logger.info("Состояние объекта успешно восстановлено из dict.")
 
-    def save_state_to_file(self, file_path: str) -> None:
-        """Сохраняет полное состояние объекта в JSON-файл.
+# -------
 
-        Использует to_dict() для получения состояния и записывает его
-        в файл с отступами для читаемости.
-
-        Args:
-            file_path (str): Путь к файлу, в который будет записано состояние.
-
-        Raises:
-            Exception: При любой ошибке ввода-вывода.
-        """
-        try:
-            with open(file_path, 'w', encoding='utf-8') as f:
-                json.dump(self.to_dict(), f, ensure_ascii=False, indent=4)
-            logger.info(f"Полное состояние успешно сохранено в файл: {file_path}")
-        except Exception as e:
-            logger.error(f"Ошибка при сохранении состояния: {e}")
-            raise
+    # def save_state_to_file(self, file_path: str) -> None:
+    #     """Сохранение состояние объекта из JSON-файла.
+    #
+    #     Читает JSON-файл и передаёт его содержимое в from_dict().
+    #
+    #     Args:
+    #         file_path (str): Путь к JSON-файлу с сохранённым состоянием.
+    #
+    #     Raises:
+    #         FileNotFoundError: Если файл не найден.
+    #         json.JSONDecodeError: Если содержимое файла повреждено.
+    #         Exception: При любой другой ошибке ввода-вывода.
+    #     """
+    #     try:
+    #         with open(file_path, 'w', encoding='utf-8') as f:
+    #             json.dump(self.to_dict(), f, ensure_ascii=False, indent=4)
+    #         logger.info(f"Настройки успешно сохранены в файл: {file_path}")
+    #     except Exception as e:
+    #         logger.error(f"Ошибка при сохранении настроек: {e}")
+    #         raise
 
     def load_state_from_file(self, file_path: str) -> None:
-        """Загружает состояние объекта из JSON-файла.
-
-        Читает JSON-файл и передаёт его содержимое в from_dict().
-
-        Args:
-            file_path (str): Путь к JSON-файлу с сохранённым состоянием.
-
-        Raises:
-            FileNotFoundError: Если файл не найден.
-            json.JSONDecodeError: Если содержимое файла повреждено.
-            Exception: При любой другой ошибке ввода-вывода.
-        """
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 state_dict = json.load(f)
             self.from_dict(state_dict)
-            logger.info(f"Полное состояние успешно загружено из файла: {file_path}")
+            logger.info(f"Настройки успешно загружены из файла: {file_path}")
         except Exception as e:
-            logger.error(f"Ошибка при загрузке состояния: {e}")
+            logger.error(f"Ошибка при загрузке настроек: {e}")
             raise
 
     def export_analytical_report(self, file_path: str, top_n_count: int = 5, prefix_to_check: str = "server") -> None:
@@ -333,18 +312,18 @@ class AccessAnalyzer:
         logger.info(f"Формирование аналитического отчета в файл: {file_path}")
         report = {
             "meta": {
-                "total_users_analyzed": len(self._users_data),
+                "data_source": self._file_path,
                 "description": "Аналитический отчет по управлению пользователями и правами доступа"
             },
             "results": {
                 "top_popular_resources": [
                     {"resource": res, "count": cnt} for res, cnt in self.find_top_n_resources(top_n_count)
                 ],
-                "unused_resources": self.find_unused_resources(),
-                "average_resources_per_user": self.calculate_average_resources_per_user(),
-                "users_with_zero_access": self.find_users_with_zero_access(),
-                "duplicate_permissions_groups": self.find_duplicate_permissions(),
-                f"user_count_with_prefix_{prefix_to_check}": self.count_users_by_resource_prefix(prefix_to_check)
+                # "unused_resources": self.find_unused_resources(),
+                # "average_resources_per_user": self.calculate_average_resources_per_user(),
+                # "users_with_zero_access": self.find_users_with_zero_access(),
+                # "duplicate_permissions_groups": self.find_duplicate_permissions(),
+                # f"user_count_with_prefix_{prefix_to_check}": self.count_users_by_resource_prefix(prefix_to_check)
             }
         }
         try:
